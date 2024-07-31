@@ -1,0 +1,151 @@
+CREATE TABLE TravelMates_Users (
+    user_id INT AUTO_INCREMENT PRIMARY KEY,
+    first_name VARCHAR(100) NOT NULL,
+    last_name VARCHAR(100) NOT NULL,
+    email VARCHAR(255) NOT NULL UNIQUE,
+    phone_number VARCHAR(15),
+    date_of_birth DATE,
+    location VARCHAR(255),
+    gender VARCHAR(255),
+    sexuality VARCHAR(255),
+    travel_preferences JSON,  
+    travel_types JSON,        
+    traveling_intentions JSON, 
+    children_status VARCHAR(255),
+    family_details TEXT,
+    hometown VARCHAR(255),
+    job_title VARCHAR(255),
+    workplace VARCHAR(255),
+    education VARCHAR(255),
+    political_beliefs VARCHAR(255),
+    religious_beliefs VARCHAR(255),
+    highest_education_level VARCHAR(255),
+    drinking_habits VARCHAR(255),
+    smoking_tobacco VARCHAR(255),
+    smoking_weed VARCHAR(255),
+    drug_use VARCHAR(255),
+    workout_habits VARCHAR(255),
+    pets VARCHAR(255),  
+    interests JSON, 
+    values_in_person JSON,
+    profile_pictures LONGTEXT, -- Using LONGTEXT to store JSON data
+    bio TEXT,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+    phone_verified BOOLEAN DEFAULT FALSE,
+    email_verified BOOLEAN DEFAULT FALSE
+);
+
+
+/------------------------------------------------------------------------------------------------------------/
+
+INSERT INTO TravelMates_Users (first_name, last_name, email, phone_number, date_of_birth, location, gender, sexuality, 
+                   dating_preferences, relationship_types, dating_intentions, children_status, family_details,
+                   hometown, job_title, workplace, education, political_beliefs, religious_beliefs, 
+                   highest_education_level, drinking_habits, smoking_tobacco, smoking_weed, drug_use, 
+                   workout_habits, pets, interests, values_in_person, profile_pictures, bio)
+VALUES ('John', 'Doe', 'john.doe@example.com', '1234567890', '1990-01-01', 'New York', 'Male', 'Straight',
+        '{"age": "25-35", "gender": ["Female"]}',
+        '["Casual", "Serious"]',
+        '["Explore new places", "Meet new people"]',
+        'No', 'I have a small family with parents and a sibling.',
+        'Chicago', 'Software Engineer', 'Tech Company', 'BS Computer Science', 
+        'Liberal', 'Christian', 'Master\'s Degree',
+        'Occasionally', 'No', 'No', 'No',
+        'Gym 3 times a week', 'Dog and Cat',
+        '["Traveling", "Reading", "Music", "Photography", "Fitness"]',
+        '["Honesty", "Kindness", "Sense of humor"]',
+        '["http://example.com/profile.jpg", "http://example.com/cover.jpg"]',
+        'Lorem ipsum dolor sit amet, consectetur adipiscing elit.');
+
+
+
+
+/----------------------------------------------------------------------------------------------------------------/
+
+
+CREATE TABLE Users (
+    user_id INT AUTO_INCREMENT PRIMARY KEY,
+    first_name VARCHAR(100),
+    last_name VARCHAR(100),
+    email VARCHAR(255) UNIQUE,
+    phone_number VARCHAR(15) UNIQUE,
+    date_of_birth DATE,
+    location VARCHAR(255),
+    gender VARCHAR(255),
+    sexuality VARCHAR(255),
+    dating_preferences JSON,
+    relationship_types JSON,
+    dating_intentions JSON,
+    children_status VARCHAR(255),
+    family_details TEXT,
+    hometown VARCHAR(255),
+    job_title VARCHAR(255),
+    workplace VARCHAR(255),
+    education VARCHAR(255),
+    political_beliefs VARCHAR(255),
+    religious_beliefs VARCHAR(255),
+    highest_education_level VARCHAR(255),
+    drinking_habits VARCHAR(255),
+    smoking_tobacco VARCHAR(255),
+    smoking_weed VARCHAR(255),
+    drug_use VARCHAR(255),
+    workout_habits VARCHAR(255),
+    pets VARCHAR(255),
+    interests JSON,
+    values_in_person JSON,
+    profile_pictures LONGTEXT,
+    bio TEXT,
+    phone_verified BOOLEAN DEFAULT FALSE,
+    email_verified BOOLEAN DEFAULT FALSE,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
+);
+
+
+/--------------------------------------------------------------------------------------------------------------/
+
+CREATE TABLE TravelMates_PhoneOTP (
+    phoneotp_id INT AUTO_INCREMENT PRIMARY KEY,
+    phone_number VARCHAR(15) NOT NULL,
+    otp VARCHAR(10) NOT NULL,
+    created_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
+    expires_at TIMESTAMP NULL,
+    FOREIGN KEY (phone_number) REFERENCES TravelMates_Users(phone_number) ON DELETE CASCADE
+);
+
+
+/----------------------------------------------------------------------------------------------------------------/
+
+CREATE TABLE TravelMates_EmailOTP (
+    emailotp_id INT AUTO_INCREMENT PRIMARY KEY,
+    email VARCHAR(255) NOT NULL,
+    otp VARCHAR(10) NOT NULL,
+    created_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
+    expires_at TIMESTAMP NULL,
+    FOREIGN KEY (email) REFERENCES TravelMates_Users(email) ON DELETE CASCADE
+);
+
+/-----------------------------------------------------------------------------------------------------------------/
+
+
+-- Create TravelMates_EmailOTP Table
+CREATE TABLE `TravelMates_EmailOTP` (
+    `id` INT AUTO_INCREMENT PRIMARY KEY,
+    `user_id` INT NOT NULL,
+    `otp` VARCHAR(10) NOT NULL,
+    `created_at` DATETIME NOT NULL,
+    `updated_at` DATETIME DEFAULT NULL,
+    FOREIGN KEY (`user_id`) REFERENCES `TravelMates_Users`(`user_id`)
+);
+
+-- Create TravelMates_PhoneOTP Table
+CREATE TABLE `TravelMates_PhoneOTP` (
+    `id` INT AUTO_INCREMENT PRIMARY KEY,
+    `user_id` INT NOT NULL,
+    `otp` VARCHAR(10) NOT NULL,
+    `created_at` DATETIME NOT NULL,
+    `updated_at` DATETIME DEFAULT NULL,
+    FOREIGN KEY (`user_id`) REFERENCES `TravelMates_Users`(`user_id`)
+);
+

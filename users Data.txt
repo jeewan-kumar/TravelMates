@@ -1,0 +1,1529 @@
+
+-- Insert 1
+INSERT INTO TravelMates_Users (
+    full_name, email, phone_number, date_of_birth, location, gender, sexuality,
+    travel_preferences, travel_types, traveling_intentions, family_details,
+    hometown, job_title, workplace, education, political_beliefs, religious_beliefs,
+    highest_education_level, drinking_habits, smoking_tobacco, smoking_weed, drug_use,
+    workout_habits, pets, interests, values_in_person, profile_pictures, bio
+) VALUES (
+    'Shreya Singh', 'shreya.singh@example.com', '123-456-7890', '1999-07-23', 'Vasanth Nagar', 'Female', 'Straight',
+    '[{"preference": "Beach", "frequency": "Occasional"}]', '["Adventure", "Relaxation"]', '["Vacation", "Exploration"]',
+    'Close-knit family.', 'Mumbai', 'SDE at Microsoft', 'Microsoft', 'B.Tech in Computer Science', 
+    'Liberal', 'Hindu', 'Bachelor\'s Degree', 'Socially', 'No', 'No', 'No', 
+    'Regular gym workouts', 'None', '["Cooking", "Traveling", "Photography"]', 
+    '["Honesty", "Kindness", "Adventurous"]', '["https://www.instagram.com/p/C2rAwvAIDhs/media/?size=l", "https://www.instagram.com/p/Czc7MTGojOL/media/?size=l"]', 
+    'Bio of Shreya Singh'
+);
+
+-- Insert 2
+INSERT INTO TravelMates_Users (
+    full_name, email, phone_number, date_of_birth, location, gender, sexuality,
+    travel_preferences, travel_types, traveling_intentions, family_details,
+    hometown, job_title, workplace, education, political_beliefs, religious_beliefs,
+    highest_education_level, drinking_habits, smoking_tobacco, smoking_weed, drug_use,
+    workout_habits, pets, interests, values_in_person, profile_pictures, bio
+) VALUES (
+    'Megha K', 'megha.k@example.com', '987-654-3210', '2001-03-15', 'HSR Layout', 'Female', 'Straight',
+    '[{"preference": "Mountains", "frequency": "Frequent"}]', '["Adventure", "Culture"]', '["Exploration", "Relaxation"]',
+    'Supports a large extended family.', 'Bangalore', 'Soft Engineer', 'IBM', 'M.Sc in Software Engineering', 
+    'Conservative', 'Hindu', 'Master\'s Degree', 'Occasionally', 'No', 'No', 'No', 
+    'Yoga and meditation', 'Dog', '["Painting", "Hiking", "Gardening"]', 
+    '["Creativity", "Empathy", "Passion"]', '["https://www.instagram.com/p/C27SU9sNMXO/media/?size=l", "https://www.instagram.com/p/C2w8cRStX2T/media/?size=l"]', 
+    'Bio of Megha K'
+);
+
+-- Insert 3
+INSERT INTO TravelMates_Users (
+    full_name, email, phone_number, date_of_birth, location, gender, sexuality,
+    travel_preferences, travel_types, traveling_intentions, family_details,
+    hometown, job_title, workplace, education, political_beliefs, religious_beliefs,
+    highest_education_level, drinking_habits, smoking_tobacco, smoking_weed, drug_use,
+    workout_habits, pets, interests, values_in_person, profile_pictures, bio
+) VALUES (
+    'Neha Sharma', 'neha.sharma@example.com', '654-321-9870', '2000-12-01', 'D Cross', 'Female', 'Straight',
+    '[{"preference": "City", "frequency": "Occasional"}]', '["Relaxation", "Culture"]', '["Exploration", "Vacation"]',
+    'Small but supportive family.', 'Bangalore', 'Architect', 'Tata Consultancy', 'B.Arch', 
+    'Progressive', 'Hindu', 'Bachelor\'s Degree', 'Socially', 'No', 'No', 'No', 
+    'Gym and running', 'Cat', '["Traveling", "Reading", "Cooking"]', 
+    '["Intelligence", "Ambition", "Honesty"]', '["https://www.instagram.com/p/CnV-OCdh_if/media/?size=l", "https://www.instagram.com/p/C3Nhxdop4ff/media/?size=l"]', 
+    'Bio of Neha Sharma'
+);
+
+-- Insert 4
+INSERT INTO TravelMates_Users (
+    full_name, email, phone_number, date_of_birth, location, gender, sexuality,
+    travel_preferences, travel_types, traveling_intentions, family_details,
+    hometown, job_title, workplace, education, political_beliefs, religious_beliefs,
+    highest_education_level, drinking_habits, smoking_tobacco, smoking_weed, drug_use,
+    workout_habits, pets, interests, values_in_person, profile_pictures, bio
+) VALUES (
+    'Sujan Anand', 'sujan.anand@example.com', '321-654-9870', '1998-11-25', 'Kormangala', 'Male', 'Straight',
+    '[{"preference": "Countryside", "frequency": "Rare"}]', '["Adventure", "Relaxation"]', '["Vacation", "Exploration"]',
+    'Close-knit family.', 'Bangalore', 'Software Engineer', 'Amazon', 'B.Tech in IT', 
+    'Liberal', 'Hindu', 'Bachelor\'s Degree', 'Socially', 'No', 'No', 'No', 
+    'Cycling and hiking', 'Dog', '["Music", "Sports", "Gaming"]', 
+    '["Honesty", "Loyalty", "Sense of Humor"]', '["https://www.instagram.com/p/C14N5gcpgYp/media/?size=l", "https://www.instagram.com/p/C01aN_tKsO7/media/?size=l"]', 
+    'Bio of Sujan Anand'
+);
+
+-- Insert 5
+INSERT INTO TravelMates_Users (
+    full_name, email, phone_number, date_of_birth, location, gender, sexuality,
+    travel_preferences, travel_types, traveling_intentions, family_details,
+    hometown, job_title, workplace, education, political_beliefs, religious_beliefs,
+    highest_education_level, drinking_habits, smoking_tobacco, smoking_weed, drug_use,
+    workout_habits, pets, interests, values_in_person, profile_pictures, bio
+) VALUES (
+    'Arjun Patel', 'arjun.patel@example.com', '456-789-1230', '1995-05-10', 'Whitefield', 'Male', 'Straight',
+    '[{"preference": "Desert", "frequency": "Occasional"}]', '["Adventure", "Culture"]', '["Exploration", "Relaxation"]',
+    'Large, supportive family.', 'Gujarat', 'Product Manager', 'Google', 'MBA', 
+    'Neutral', 'Hindu', 'Master\'s Degree', 'Occasionally', 'No', 'No', 'No', 
+    'Swimming and cycling', 'None', '["Technology", "Photography", "Traveling"]', 
+    '["Honesty", "Ambition", "Kindness"]', '["https://www.instagram.com/p/C27SU9sNMXO/media/?size=l", "https://www.instagram.com/p/C2w8cRStX2T/media/?size=l"]', 
+    'Bio of Arjun Patel'
+);
+
+-- Insert 6
+INSERT INTO TravelMates_Users (
+    full_name, email, phone_number, date_of_birth, location, gender, sexuality,
+    travel_preferences, travel_types, traveling_intentions, family_details,
+    hometown, job_title, workplace, education, political_beliefs, religious_beliefs,
+    highest_education_level, drinking_habits, smoking_tobacco, smoking_weed, drug_use,
+    workout_habits, pets, interests, values_in_person, profile_pictures, bio
+) VALUES (
+    'Ananya Desai', 'ananya.desai@example.com', '789-123-4560', '2002-06-30', 'Koramangala', 'Female', 'Straight',
+    '[{"preference": "Forest", "frequency": "Frequent"}]', '["Relaxation", "Adventure"]', '["Exploration", "Vacation"]',
+    'Small, close-knit family.', 'Mumbai', 'Graphic Designer', 'Freelancer', 'B.Des', 
+    'Progressive', 'Hindu', 'Bachelor\'s Degree', 'Occasionally', 'No', 'No', 'No', 
+    'Running and yoga', 'Cat', '["Designing", "Traveling", "Reading"]', 
+    '["Creativity", "Empathy", "Integrity"]', '["https://www.instagram.com/p/C27SU9sNMXO/media/?size=l", "https://www.instagram.com/p/C2w8cRStX2T/media/?size=l"]', 
+    'Bio of Ananya Desai'
+);
+
+-- Insert 7
+INSERT INTO TravelMates_Users (
+    full_name, email, phone_number, date_of_birth, location, gender, sexuality,
+    travel_preferences, travel_types, traveling_intentions, family_details,
+    hometown, job_title, workplace, education, political_beliefs, religious_beliefs,
+    highest_education_level, drinking_habits, smoking_tobacco, smoking_weed, drug_use,
+    workout_habits, pets, interests, values_in_person, profile_pictures, bio
+) VALUES (
+    'Karan Sharma', 'karan.sharma@example.com', '321-987-6540', '1996-09-05', 'Jayanagar', 'Male', 'Straight',
+    '[{"preference": "Beach", "frequency": "Occasional"}]', '["Adventure", "Culture"]', '["Exploration", "Relaxation"]',
+    'Close-knit family.', 'Delhi', 'Marketing Manager', 'HCL', 'MBA', 
+    'Conservative', 'Hindu', 'Master\'s Degree', 'Socially', 'No', 'No', 'No', 
+    'Gym and sports', 'Dog', '["Traveling", "Movies", "Cooking"]', 
+    '["Ambition", "Integrity", "Humor"]', '["https://www.instagram.com/p/C27SU9sNMXO/media/?size=l", "https://www.instagram.com/p/C2w8cRStX2T/media/?size=l"]', 
+    'Bio of Karan Sharma'
+);
+
+-- Insert 8
+INSERT INTO TravelMates_Users (
+    full_name, email, phone_number, date_of_birth, location, gender, sexuality,
+    travel_preferences, travel_types, traveling_intentions, family_details,
+    hometown, job_title, workplace, education, political_beliefs, religious_beliefs,
+    highest_education_level, drinking_habits, smoking_tobacco, smoking_weed, drug_use,
+    workout_habits, pets, interests, values_in_person, profile_pictures, bio
+) VALUES (
+    'Ritika Mehta', 'ritika.mehta@example.com', '654-321-9876', '1997-04-20', 'Kalyan Nagar', 'Female', 'Straight',
+    '[{"preference": "City", "frequency": "Frequent"}]', '["Culture", "Relaxation"]', '["Vacation", "Exploration"]',
+    'Small, close-knit family.', 'Mumbai', 'HR Manager', 'Infosys', 'M.B.A', 
+    'Progressive', 'Hindu', 'Master\'s Degree', 'Occasionally', 'No', 'No', 'No', 
+    'Cycling and yoga', 'Dog', '["Traveling", "Photography", "Food"]', 
+    '["Kindness", "Respect", "Loyalty"]', '["https://www.instagram.com/p/C27SU9sNMXO/media/?size=l", "https://www.instagram.com/p/C2w8cRStX2T/media/?size=l"]', 
+    'Bio of Ritika Mehta'
+);
+
+-- Insert 9
+INSERT INTO TravelMates_Users (
+    full_name, email, phone_number, date_of_birth, location, gender, sexuality,
+    travel_preferences, travel_types, traveling_intentions, family_details,
+    hometown, job_title, workplace, education, political_beliefs, religious_beliefs,
+    highest_education_level, drinking_habits, smoking_tobacco, smoking_weed, drug_use,
+    workout_habits, pets, interests, values_in_person, profile_pictures, bio
+) VALUES (
+    'Vikram Singh', 'vikram.singh@example.com', '321-654-9876', '1990-08-17', 'Vasant Kunj', 'Male', 'Straight',
+    '[{"preference": "Desert", "frequency": "Occasional"}]', '["Adventure", "Relaxation"]', '["Exploration", "Vacation"]',
+    'Large family, very supportive.', 'Noida', 'Finance Analyst', 'Deloitte', 'M.Com', 
+    'Liberal', 'Hindu', 'Master\'s Degree', 'Occasionally', 'No', 'No', 'No', 
+    'Gym workouts', 'None', '["Traveling", "Reading", "Sports"]', 
+    '["Ambition", "Respect", "Honesty"]', '["https://www.instagram.com/p/C27SU9sNMXO/media/?size=l", "https://www.instagram.com/p/C2w8cRStX2T/media/?size=l"]', 
+    'Bio of Vikram Singh'
+);
+
+-- Insert 10
+INSERT INTO TravelMates_Users (
+    full_name, email, phone_number, date_of_birth, location, gender, sexuality,
+    travel_preferences, travel_types, traveling_intentions, family_details,
+    hometown, job_title, workplace, education, political_beliefs, religious_beliefs,
+    highest_education_level, drinking_habits, smoking_tobacco, smoking_weed, drug_use,
+    workout_habits, pets, interests, values_in_person, profile_pictures, bio
+) VALUES (
+    'Priya Kapoor', 'priya.kapoor@example.com', '654-987-1234', '1993-10-10', 'Connaught Place', 'Female', 'Straight',
+    '[{"preference": "Mountains", "frequency": "Frequent"}]', '["Adventure", "Relaxation"]', '["Vacation", "Exploration"]',
+    'Close-knit family.', 'Delhi', 'Consultant', 'Accenture', 'M.Tech', 
+    'Progressive', 'Hindu', 'Master\'s Degree', 'Occasionally', 'No', 'No', 'No', 
+    'Gym workouts', 'Dog', '["Traveling", "Reading", "Music"]', 
+    '["Loyalty", "Kindness", "Honesty"]', '["https://www.instagram.com/p/C27SU9sNMXO/media/?size=l", "https://www.instagram.com/p/C2w8cRStX2T/media/?size=l"]', 
+    'Bio of Priya Kapoor'
+);
+
+-- Insert 11
+INSERT INTO TravelMates_Users (
+    full_name, email, phone_number, date_of_birth, location, gender, sexuality,
+    travel_preferences, travel_types, traveling_intentions, family_details,
+    hometown, job_title, workplace, education, political_beliefs, religious_beliefs,
+    highest_education_level, drinking_habits, smoking_tobacco, smoking_weed, drug_use,
+    workout_habits, pets, interests, values_in_person, profile_pictures, bio
+) VALUES (
+    'Rajesh Kumar', 'rajesh.kumar@example.com', '555-123-4567', '1987-12-12', 'Whitefield', 'Male', 'Straight',
+    '[{"preference": "Beach", "frequency": "Frequent"}]', '["Adventure", "Relaxation"]', '["Vacation", "Exploration"]',
+    'Supportive family.', 'Chennai', 'Civil Engineer', 'L&T', 'B.Tech in Civil Engineering', 
+    'Neutral', 'Hindu', 'Bachelor\'s Degree', 'Socially', 'No', 'No', 'No', 
+    'Swimming and hiking', 'None', '["Traveling", "Cooking", "Reading"]', 
+    '["Loyalty", "Respect", "Integrity"]', '["https://www.instagram.com/p/C5JD0iVhWk5/media/?size=l", "https://www.instagram.com/p/C4H92ZdhFZz/media/?size=l"]', 
+    'Bio of Rajesh Kumar'
+);
+
+-- Insert 12
+INSERT INTO TravelMates_Users (
+    full_name, email, phone_number, date_of_birth, location, gender, sexuality,
+    travel_preferences, travel_types, traveling_intentions, family_details,
+    hometown, job_title, workplace, education, political_beliefs, religious_beliefs,
+    highest_education_level, drinking_habits, smoking_tobacco, smoking_weed, drug_use,
+    workout_habits, pets, interests, values_in_person, profile_pictures, bio
+) VALUES (
+    'Aarti Deshmukh', 'aarti.deshmukh@example.com', '555-987-6543', '1994-09-19', 'Kothrud', 'Female', 'Straight',
+    '[{"preference": "Mountains", "frequency": "Occasional"}]', '["Adventure", "Relaxation"]', '["Exploration", "Vacation"]',
+    'Close-knit family.', 'Pune', 'Marketing Specialist', 'HDFC', 'BBA', 
+    'Progressive', 'Hindu', 'Bachelor\'s Degree', 'Occasionally', 'No', 'No', 'No', 
+    'Yoga and gym', 'Dog', '["Traveling", "Photography", "Music"]', 
+    '["Creativity", "Honesty", "Ambition"]', '["https://www.instagram.com/p/C5A3VkQh2Wy/media/?size=l", "https://www.instagram.com/p/C4jH8sThG_q/media/?size=l"]', 
+    'Bio of Aarti Deshmukh'
+);
+
+-- Insert 13
+INSERT INTO TravelMates_Users (
+    full_name, email, phone_number, date_of_birth, location, gender, sexuality,
+    travel_preferences, travel_types, traveling_intentions, family_details,
+    hometown, job_title, workplace, education, political_beliefs, religious_beliefs,
+    highest_education_level, drinking_habits, smoking_tobacco, smoking_weed, drug_use,
+    workout_habits, pets, interests, values_in_person, profile_pictures, bio
+) VALUES (
+    'Ishaan Sharma', 'ishaan.sharma@example.com', '555-654-3210', '1996-01-11', 'Electronic City', 'Male', 'Straight',
+    '[{"preference": "City", "frequency": "Frequent"}]', '["Culture", "Adventure"]', '["Vacation", "Exploration"]',
+    'Supportive family.', 'Delhi', 'Software Developer', 'Wipro', 'B.Tech in Computer Science', 
+    'Liberal', 'Hindu', 'Bachelor\'s Degree', 'Socially', 'No', 'No', 'No', 
+    'Gym and hiking', 'Cat', '["Traveling", "Tech", "Gaming"]', 
+    '["Honesty", "Curiosity", "Ambition"]', '["https://www.instagram.com/p/C4RzNdThPQ3/media/?size=l", "https://www.instagram.com/p/C5C9lNhgkWp/media/?size=l"]', 
+    'Bio of Ishaan Sharma'
+);
+
+-- Insert 14
+INSERT INTO TravelMates_Users (
+    full_name, email, phone_number, date_of_birth, location, gender, sexuality,
+    travel_preferences, travel_types, traveling_intentions, family_details,
+    hometown, job_title, workplace, education, political_beliefs, religious_beliefs,
+    highest_education_level, drinking_habits, smoking_tobacco, smoking_weed, drug_use,
+    workout_habits, pets, interests, values_in_person, profile_pictures, bio
+) VALUES (
+    'Tanvi Patel', 'tanvi.patel@example.com', '555-321-9876', '1991-07-07', 'Indiranagar', 'Female', 'Straight',
+    '[{"preference": "Countryside", "frequency": "Occasional"}]', '["Relaxation", "Culture"]', '["Exploration", "Vacation"]',
+    'Close-knit family.', 'Ahmedabad', 'HR Specialist', 'TCS', 'MBA', 
+    'Neutral', 'Hindu', 'Master\'s Degree', 'Occasionally', 'No', 'No', 'No', 
+    'Cycling and yoga', 'None', '["Traveling", "Cooking", "Reading"]', 
+    '["Empathy", "Integrity", "Creativity"]', '["https://www.instagram.com/p/C5HJkVdhKX8/media/?size=l", "https://www.instagram.com/p/C5Z9ZQhkwIq/media/?size=l"]', 
+    'Bio of Tanvi Patel'
+);
+
+-- Insert 15
+INSERT INTO TravelMates_Users (
+    full_name, email, phone_number, date_of_birth, location, gender, sexuality,
+    travel_preferences, travel_types, traveling_intentions, family_details,
+    hometown, job_title, workplace, education, political_beliefs, religious_beliefs,
+    highest_education_level, drinking_habits, smoking_tobacco, smoking_weed, drug_use,
+    workout_habits, pets, interests, values_in_person, profile_pictures, bio
+) VALUES (
+    'Kavya Rao', 'kavya.rao@example.com', '555-789-6543', '1992-08-26', 'Ulsoor', 'Female', 'Straight',
+    '[{"preference": "Beach", "frequency": "Frequent"}]', '["Relaxation", "Adventure"]', '["Vacation", "Exploration"]',
+    'Close-knit family.', 'Hyderabad', 'Content Writer', 'Freelancer', 'B.A. English', 
+    'Liberal', 'Hindu', 'Bachelor\'s Degree', 'Socially', 'No', 'No', 'No', 
+    'Yoga and jogging', 'Dog', '["Traveling", "Writing", "Cooking"]', 
+    '["Honesty", "Creativity", "Loyalty"]', '["https://www.instagram.com/p/C5L2F2kJnKQ/media/?size=l", "https://www.instagram.com/p/C5M8sR_hXy0/media/?size=l"]', 
+    'Bio of Kavya Rao'
+);
+
+-- Insert 16
+INSERT INTO TravelMates_Users (
+    full_name, email, phone_number, date_of_birth, location, gender, sexuality,
+    travel_preferences, travel_types, traveling_intentions, family_details,
+    hometown, job_title, workplace, education, political_beliefs, religious_beliefs,
+    highest_education_level, drinking_habits, smoking_tobacco, smoking_weed, drug_use,
+    workout_habits, pets, interests, values_in_person, profile_pictures, bio
+) VALUES (
+    'Rohit Bhat', 'rohit.bhat@example.com', '555-654-7890', '1989-10-20', 'Rajajinagar', 'Male', 'Straight',
+    '[{"preference": "Forest", "frequency": "Occasional"}]', '["Adventure", "Culture"]', '["Exploration", "Vacation"]',
+    'Supportive family.', 'Kolkata', 'Business Analyst', 'Cognizant', 'B.Com', 
+    'Neutral', 'Hindu', 'Bachelor\'s Degree', 'Occasionally', 'No', 'No', 'No', 
+    'Swimming and cycling', 'Cat', '["Traveling", "Technology", "Music"]', 
+    '["Integrity", "Ambition", "Creativity"]', '["https://www.instagram.com/p/C5P7GshhM1m/media/?size=l", "https://www.instagram.com/p/C5Q2kP2hLzR/media/?size=l"]', 
+    'Bio of Rohit Bhat'
+);
+
+-- Insert 17
+INSERT INTO TravelMates_Users (
+    full_name, email, phone_number, date_of_birth, location, gender, sexuality,
+    travel_preferences, travel_types, traveling_intentions, family_details,
+    hometown, job_title, workplace, education, political_beliefs, religious_beliefs,
+    highest_education_level, drinking_habits, smoking_tobacco, smoking_weed, drug_use,
+    workout_habits, pets, interests, values_in_person, profile_pictures, bio
+) VALUES (
+    'Nisha Gupta', 'nisha.gupta@example.com', '555-321-4567', '1995-11-09', 'Koramangala', 'Female', 'Straight',
+    '[{"preference": "Beach", "frequency": "Frequent"}]', '["Adventure", "Relaxation"]', '["Vacation", "Exploration"]',
+    'Supportive family.', 'Bangalore', 'UX Designer', 'Adobe', 'M.Des', 
+    'Liberal', 'Hindu', 'Master\'s Degree', 'Socially', 'No', 'No', 'No', 
+    'Yoga and running', 'None', '["Traveling", "Design", "Food"]', 
+    '["Creativity", "Integrity", "Empathy"]', '["https://www.instagram.com/p/C5R1a5_hN7D/media/?size=l", "https://www.instagram.com/p/C5S2V9ChQAm/media/?size=l"]', 
+    'Bio of Nisha Gupta'
+);
+
+-- Insert 18
+INSERT INTO TravelMates_Users (
+    full_name, email, phone_number, date_of_birth, location, gender, sexuality,
+    travel_preferences, travel_types, traveling_intentions, family_details,
+    hometown, job_title, workplace, education, political_beliefs, religious_beliefs,
+    highest_education_level, drinking_habits, smoking_tobacco, smoking_weed, drug_use,
+    workout_habits, pets, interests, values_in_person, profile_pictures, bio
+) VALUES (
+    'Siddharth Reddy', 'siddharth.reddy@example.com', '555-987-1234', '1992-04-15', 'HSR Layout', 'Male', 'Straight',
+    '[{"preference": "City", "frequency": "Frequent"}]', '["Culture", "Adventure"]', '["Exploration", "Vacation"]',
+    'Close-knit family.', 'Hyderabad', 'Product Manager', 'Amazon', 'B.Tech in Engineering', 
+    'Progressive', 'Hindu', 'Bachelor\'s Degree', 'Socially', 'No', 'No', 'No', 
+    'Gym and swimming', 'Dog', '["Traveling", "Tech", "Music"]', 
+    '["Integrity", "Creativity", "Loyalty"]', '["https://www.instagram.com/p/C5RZ1tKhWvT/media/?size=l", "https://www.instagram.com/p/C5SY4jCh84D/media/?size=l"]', 
+    'Bio of Siddharth Reddy'
+);
+
+-- Insert 19
+INSERT INTO TravelMates_Users (
+    full_name, email, phone_number, date_of_birth, location, gender, sexuality,
+    travel_preferences, travel_types, traveling_intentions, family_details,
+    hometown, job_title, workplace, education, political_beliefs, religious_beliefs,
+    highest_education_level, drinking_habits, smoking_tobacco, smoking_weed, drug_use,
+    workout_habits, pets, interests, values_in_person, profile_pictures, bio
+) VALUES (
+    'Madhavi Rao', 'madhavi.rao@example.com', '555-123-7890', '1985-03-23', 'Jayanagar', 'Female', 'Straight',
+    '[{"preference": "Mountains", "frequency": "Occasional"}]', '["Adventure", "Relaxation"]', '["Vacation", "Exploration"]',
+    'Supportive family.', 'Bangalore', 'Research Scientist', 'IIT', 'PhD in Science', 
+    'Neutral', 'Hindu', 'Doctorate Degree', 'Occasionally', 'No', 'No', 'No', 
+    'Hiking and yoga', 'None', '["Traveling", "Science", "Reading"]', 
+    '["Curiosity", "Respect", "Integrity"]', '["https://www.instagram.com/p/C5YQyY9hJ_S/media/?size=l", "https://www.instagram.com/p/C5W_qZDhR4J/media/?size=l"]', 
+    'Bio of Madhavi Rao'
+);
+
+-- Insert 20
+INSERT INTO TravelMates_Users (
+    full_name, email, phone_number, date_of_birth, location, gender, sexuality,
+    travel_preferences, travel_types, traveling_intentions, family_details,
+    hometown, job_title, workplace, education, political_beliefs, religious_beliefs,
+    highest_education_level, drinking_habits, smoking_tobacco, smoking_weed, drug_use,
+    workout_habits, pets, interests, values_in_person, profile_pictures, bio
+) VALUES (
+    'Anil Verma', 'anil.verma@example.com', '555-456-7890', '1988-06-30', 'Jodhpur', 'Male', 'Straight',
+    '[{"preference": "Desert", "frequency": "Occasional"}]', '["Adventure", "Culture"]', '["Exploration", "Vacation"]',
+    'Close-knit family.', 'Jodhpur', 'Architect', 'Freelancer', 'B.Arch', 
+    'Liberal', 'Hindu', 'Bachelor\'s Degree', 'Occasionally', 'No', 'No', 'No', 
+    'Gym and outdoor sports', 'None', '["Traveling", "Design", "History"]', 
+    '["Creativity", "Integrity", "Respect"]', '["https://www.instagram.com/p/C5F_Uw9hP0G/media/?size=l", "https://www.instagram.com/p/C5G5V9T_hTT/media/?size=l"]', 
+    'Bio of Anil Verma'
+);
+
+
+-- Insert 21
+INSERT INTO TravelMates_Users (
+    full_name, email, phone_number, date_of_birth, location, gender, sexuality,
+    travel_preferences, travel_types, traveling_intentions, family_details,
+    hometown, job_title, workplace, education, political_beliefs, religious_beliefs,
+    highest_education_level, drinking_habits, smoking_tobacco, smoking_weed, drug_use,
+    workout_habits, pets, interests, values_in_person, profile_pictures, bio
+) VALUES (
+    'Pooja Mehta', 'pooja.mehta@example.com', '555-234-5678', '1993-05-16', 'Gurgaon', 'Female', 'Straight',
+    '[{"preference": "Countryside", "frequency": "Occasional"}]', '["Culture", "Relaxation"]', '["Vacation", "Exploration"]',
+    'Supportive family.', 'Gurgaon', 'Consultant', 'EY', 'MBA', 
+    'Progressive', 'Hindu', 'Master\'s Degree', 'Socially', 'No', 'No', 'No', 
+    'Gym and jogging', 'None', '["Traveling", "Food", "Music"]', 
+    '["Integrity", "Creativity", "Respect"]', '["https://www.instagram.com/p/C5J3T8hR6A7/media/?size=l", "https://www.instagram.com/p/C5K4D9Th2uE/media/?size=l"]', 
+    'Bio of Pooja Mehta'
+);
+
+-- Insert 22
+INSERT INTO TravelMates_Users (
+    full_name, email, phone_number, date_of_birth, location, gender, sexuality,
+    travel_preferences, travel_types, traveling_intentions, family_details,
+    hometown, job_title, workplace, education, political_beliefs, religious_beliefs,
+    highest_education_level, drinking_habits, smoking_tobacco, smoking_weed, drug_use,
+    workout_habits, pets, interests, values_in_person, profile_pictures, bio
+) VALUES (
+    'Arjun Singh', 'arjun.singh@example.com', '555-876-5432', '1986-11-11', 'Noida', 'Male', 'Straight',
+    '[{"preference": "Mountains", "frequency": "Frequent"}]', '["Adventure", "Culture"]', '["Exploration", "Vacation"]',
+    'Close-knit family.', 'Noida', 'Project Manager', 'HCL', 'B.Tech in Engineering', 
+    'Neutral', 'Hindu', 'Bachelor\'s Degree', 'Occasionally', 'No', 'No', 'No', 
+    'Cycling and hiking', 'Dog', '["Traveling", "Technology", "Gaming"]', 
+    '["Loyalty", "Integrity", "Curiosity"]', '["https://www.instagram.com/p/C5L6V7Jh8G2/media/?size=l", "https://www.instagram.com/p/C5M4U8FhG6U/media/?size=l"]', 
+    'Bio of Arjun Singh'
+);
+
+-- Insert 23
+INSERT INTO TravelMates_Users (
+    full_name, email, phone_number, date_of_birth, location, gender, sexuality,
+    travel_preferences, travel_types, traveling_intentions, family_details,
+    hometown, job_title, workplace, education, political_beliefs, religious_beliefs,
+    highest_education_level, drinking_habits, smoking_tobacco, smoking_weed, drug_use,
+    workout_habits, pets, interests, values_in_person, profile_pictures, bio
+) VALUES (
+    'Riya Patel', 'riya.patel@example.com', '555-432-1098', '1994-02-20', 'Faridabad', 'Female', 'Straight',
+    '[{"preference": "Beach", "frequency": "Occasional"}]', '["Relaxation", "Adventure"]', '["Vacation", "Exploration"]',
+    'Supportive family.', 'Faridabad', 'Graphic Designer', 'Freelancer', 'BFA', 
+    'Liberal', 'Hindu', 'Bachelor\'s Degree', 'Socially', 'No', 'No', 'No', 
+    'Yoga and swimming', 'Cat', '["Traveling", "Art", "Photography"]', 
+    '["Creativity", "Honesty", "Kindness"]', '["https://www.instagram.com/p/C5N7M9Jh5C4/media/?size=l", "https://www.instagram.com/p/C5O5V0Th4P5/media/?size=l"]', 
+    'Bio of Riya Patel'
+);
+
+-- Insert 24
+INSERT INTO TravelMates_Users (
+    full_name, email, phone_number, date_of_birth, location, gender, sexuality,
+    travel_preferences, travel_types, traveling_intentions, family_details,
+    hometown, job_title, workplace, education, political_beliefs, religious_beliefs,
+    highest_education_level, drinking_habits, smoking_tobacco, smoking_weed, drug_use,
+    workout_habits, pets, interests, values_in_person, profile_pictures, bio
+) VALUES (
+    'Sameer Ahmed', 'sameer.ahmed@example.com', '555-543-2109', '1987-10-05', 'Agra', 'Male', 'Straight',
+    '[{"preference": "Desert", "frequency": "Occasional"}]', '["Adventure", "Relaxation"]', '["Exploration", "Vacation"]',
+    'Close-knit family.', 'Agra', 'Entrepreneur', 'Self-employed', 'MBA', 
+    'Progressive', 'Muslim', 'Master\'s Degree', 'Socially', 'No', 'No', 'No', 
+    'Gym and running', 'Dog', '["Traveling", "Business", "Sports"]', 
+    '["Creativity", "Loyalty", "Respect"]', '["https://www.instagram.com/p/C5P8iDhGJ4T/media/?size=l", "https://www.instagram.com/p/C5Q7vJhH5L6/media/?size=l"]', 
+    'Bio of Sameer Ahmed'
+);
+
+-- Insert 25
+INSERT INTO TravelMates_Users (
+    full_name, email, phone_number, date_of_birth, location, gender, sexuality,
+    travel_preferences, travel_types, traveling_intentions, family_details,
+    hometown, job_title, workplace, education, political_beliefs, religious_beliefs,
+    highest_education_level, drinking_habits, smoking_tobacco, smoking_weed, drug_use,
+    workout_habits, pets, interests, values_in_person, profile_pictures, bio
+) VALUES (
+    'Sanya Sharma', 'sanya.sharma@example.com', '555-678-9012', '1992-06-15', 'Vijayawada', 'Female', 'Straight',
+    '[{"preference": "City", "frequency": "Frequent"}]', '["Culture", "Adventure"]', '["Exploration", "Vacation"]',
+    'Supportive family.', 'Vijayawada', 'Data Analyst', 'Capgemini', 'M.Sc in Data Science', 
+    'Neutral', 'Hindu', 'Master\'s Degree', 'Socially', 'No', 'No', 'No', 
+    'Swimming and cycling', 'None', '["Traveling", "Analytics", "Cooking"]', 
+    '["Integrity", "Curiosity", "Creativity"]', '["https://www.instagram.com/p/C5R7hGhJ1_i/media/?size=l", "https://www.instagram.com/p/C5S6kJhH3u4/media/?size=l"]', 
+    'Bio of Sanya Sharma'
+);
+
+-- Insert 26
+INSERT INTO TravelMates_Users (
+    full_name, email, phone_number, date_of_birth, location, gender, sexuality,
+    travel_preferences, travel_types, traveling_intentions, family_details,
+    hometown, job_title, workplace, education, political_beliefs, religious_beliefs,
+    highest_education_level, drinking_habits, smoking_tobacco, smoking_weed, drug_use,
+    workout_habits, pets, interests, values_in_person, profile_pictures, bio
+) VALUES (
+    'Ananya Jain', 'ananya.jain@example.com', '555-789-0123', '1990-12-22', 'Lucknow', 'Female', 'Straight',
+    '[{"preference": "Beach", "frequency": "Frequent"}]', '["Adventure", "Culture"]', '["Exploration", "Vacation"]',
+    'Close-knit family.', 'Lucknow', 'Event Planner', 'Freelancer', 'B.A. Events Management', 
+    'Liberal', 'Hindu', 'Bachelor\'s Degree', 'Socially', 'No', 'No', 'No', 
+    'Yoga and dancing', 'Dog', '["Traveling", "Events", "Music"]', 
+    '["Creativity", "Respect", "Empathy"]', '["https://www.instagram.com/p/C5T5KJhG6F1/media/?size=l", "https://www.instagram.com/p/C5U2Z9Vh9H8/media/?size=l"]', 
+    'Bio of Ananya Jain'
+);
+
+-- Insert 27
+INSERT INTO TravelMates_Users (
+    full_name, email, phone_number, date_of_birth, location, gender, sexuality,
+    travel_preferences, travel_types, traveling_intentions, family_details,
+    hometown, job_title, workplace, education, political_beliefs, religious_beliefs,
+    highest_education_level, drinking_habits, smoking_tobacco, smoking_weed, drug_use,
+    workout_habits, pets, interests, values_in_person, profile_pictures, bio
+) VALUES (
+    'Rajesh Kumar', 'rajesh.kumar@example.com', '555-890-1234', '1989-09-05', 'Indore', 'Male', 'Straight',
+    '[{"preference": "Countryside", "frequency": "Occasional"}]', '["Adventure", "Relaxation"]', '["Vacation", "Exploration"]',
+    'Supportive family.', 'Indore', 'Software Engineer', 'Infosys', 'B.Tech in Computer Science', 
+    'Neutral', 'Hindu', 'Bachelor\'s Degree', 'Occasionally', 'No', 'No', 'No', 
+    'Gym and hiking', 'None', '["Traveling", "Technology", "Gaming"]', 
+    '["Creativity", "Loyalty", "Integrity"]', '["https://www.instagram.com/p/C5V9hJhH3D4/media/?size=l", "https://www.instagram.com/p/C5W7yJhG2H9/media/?size=l"]', 
+    'Bio of Rajesh Kumar'
+);
+
+-- Insert 28
+INSERT INTO TravelMates_Users (
+    full_name, email, phone_number, date_of_birth, location, gender, sexuality,
+    travel_preferences, travel_types, traveling_intentions, family_details,
+    hometown, job_title, workplace, education, political_beliefs, religious_beliefs,
+    highest_education_level, drinking_habits, smoking_tobacco, smoking_weed, drug_use,
+    workout_habits, pets, interests, values_in_person, profile_pictures, bio
+) VALUES (
+    'Meera Kapoor', 'meera.kapoor@example.com', '555-901-2345', '1988-07-30', 'Chandigarh', 'Female', 'Straight',
+    '[{"preference": "Mountains", "frequency": "Frequent"}]', '["Adventure", "Relaxation"]', '["Exploration", "Vacation"]',
+    'Close-knit family.', 'Chandigarh', 'Financial Analyst', 'HSBC', 'M.Com', 
+    'Liberal', 'Hindu', 'Master\'s Degree', 'Occasionally', 'No', 'No', 'No', 
+    'Gym and hiking', 'None', '["Traveling", "Finance", "Cooking"]', 
+    '["Integrity", "Respect", "Curiosity"]', '["https://www.instagram.com/p/C5X5LJhK4P9/media/?size=l", "https://www.instagram.com/p/C5Y2KJhH7D8/media/?size=l"]', 
+    'Bio of Meera Kapoor'
+);
+
+-- Insert 29
+INSERT INTO TravelMates_Users (
+    full_name, email, phone_number, date_of_birth, location, gender, sexuality,
+    travel_preferences, travel_types, traveling_intentions, family_details,
+    hometown, job_title, workplace, education, political_beliefs, religious_beliefs,
+    highest_education_level, drinking_habits, smoking_tobacco, smoking_weed, drug_use,
+    workout_habits, pets, interests, values_in_person, profile_pictures, bio
+) VALUES (
+    'Karan Joshi', 'karan.joshi@example.com', '555-012-3456', '1991-01-14', 'Kolkata', 'Male', 'Straight',
+    '[{"preference": "City", "frequency": "Frequent"}]', '["Culture", "Adventure"]', '["Exploration", "Vacation"]',
+    'Supportive family.', 'Kolkata', 'Digital Marketer', 'Wipro', 'MBA', 
+    'Progressive', 'Hindu', 'Master\'s Degree', 'Socially', 'No', 'No', 'No', 
+    'Gym and cycling', 'None', '["Traveling", "Marketing", "Technology"]', 
+    '["Creativity", "Integrity", "Curiosity"]', '["https://www.instagram.com/p/C5Z4KJhJ6F5/media/?size=l", "https://www.instagram.com/p/C5a9D9Gh3D5/media/?size=l"]', 
+    'Bio of Karan Joshi'
+);
+
+-- Insert 30
+INSERT INTO TravelMates_Users (
+    full_name, email, phone_number, date_of_birth, location, gender, sexuality,
+    travel_preferences, travel_types, traveling_intentions, family_details,
+    hometown, job_title, workplace, education, political_beliefs, religious_beliefs,
+    highest_education_level, drinking_habits, smoking_tobacco, smoking_weed, drug_use,
+    workout_habits, pets, interests, values_in_person, profile_pictures, bio
+) VALUES (
+    'Isha Malik', 'isha.malik@example.com', '555-678-2345', '1990-03-10', 'Pune', 'Female', 'Straight',
+    '[{"preference": "Countryside", "frequency": "Occasional"}]', '["Adventure", "Relaxation"]', '["Exploration", "Vacation"]',
+    'Supportive family.', 'Pune', 'HR Manager', 'Cognizant', 'MBA', 
+    'Neutral', 'Hindu', 'Master\'s Degree', 'Socially', 'No', 'No', 'No', 
+    'Yoga and swimming', 'Cat', '["Traveling", "HR", "Cooking"]', 
+    '["Integrity", "Respect", "Kindness"]', '["https://www.instagram.com/p/C5b5KJhJ8E3/media/?size=l", "https://www.instagram.com/p/C5c6D9Gh7D8/media/?size=l"]', 
+    'Bio of Isha Malik'
+);
+
+-- Insert 31
+INSERT INTO TravelMates_Users (
+    full_name, email, phone_number, date_of_birth, location, gender, sexuality,
+    travel_preferences, travel_types, traveling_intentions, family_details,
+    hometown, job_title, workplace, education, political_beliefs, religious_beliefs,
+    highest_education_level, drinking_habits, smoking_tobacco, smoking_weed, drug_use,
+    workout_habits, pets, interests, values_in_person, profile_pictures, bio
+) VALUES (
+    'Nikhil Reddy', 'nikhil.reddy@example.com', '555-789-3456', '1985-08-25', 'Hyderabad', 'Male', 'Straight',
+    '[{"preference": "Beach", "frequency": "Frequent"}]', '["Adventure", "Relaxation"]', '["Exploration", "Vacation"]',
+    'Close-knit family.', 'Hyderabad', 'Software Architect', 'TCS', 'B.Tech in IT', 
+    'Neutral', 'Hindu', 'Bachelor\'s Degree', 'Occasionally', 'No', 'No', 'No', 
+    'Gym and running', 'Dog', '["Traveling", "Technology", "Gaming"]', 
+    '["Integrity", "Curiosity", "Loyalty"]', '["https://www.instagram.com/p/C6A7lJhH5I4/media/?size=l", "https://www.instagram.com/p/C6B5kJhH9D6/media/?size=l"]', 
+    'Bio of Nikhil Reddy'
+);
+
+-- Insert 32
+INSERT INTO TravelMates_Users (
+    full_name, email, phone_number, date_of_birth, location, gender, sexuality,
+    travel_preferences, travel_types, traveling_intentions, family_details,
+    hometown, job_title, workplace, education, political_beliefs, religious_beliefs,
+    highest_education_level, drinking_habits, smoking_tobacco, smoking_weed, drug_use,
+    workout_habits, pets, interests, values_in_person, profile_pictures, bio
+) VALUES (
+    'Simran Kaur', 'simran.kaur@example.com', '555-123-4567', '1994-04-12', 'Chennai', 'Female', 'Straight',
+    '[{"preference": "Mountains", "frequency": "Occasional"}]', '["Adventure", "Relaxation"]', '["Vacation", "Exploration"]',
+    'Supportive family.', 'Chennai', 'Marketing Specialist', 'Deloitte', 'MBA', 
+    'Liberal', 'Sikh', 'Master\'s Degree', 'Socially', 'No', 'No', 'No', 
+    'Yoga and hiking', 'Cat', '["Traveling", "Marketing", "Cooking"]', 
+    '["Creativity", "Empathy", "Respect"]', '["https://www.instagram.com/p/C6C4lJhH9F3/media/?size=l", "https://www.instagram.com/p/C6D7kJhG3J5/media/?size=l"]', 
+    'Bio of Simran Kaur'
+);
+
+-- Insert 33
+INSERT INTO TravelMates_Users (
+    full_name, email, phone_number, date_of_birth, location, gender, sexuality,
+    travel_preferences, travel_types, traveling_intentions, family_details,
+    hometown, job_title, workplace, education, political_beliefs, religious_beliefs,
+    highest_education_level, drinking_habits, smoking_tobacco, smoking_weed, drug_use,
+    workout_habits, pets, interests, values_in_person, profile_pictures, bio
+) VALUES (
+    'Rajiv Joshi', 'rajiv.joshi@example.com', '555-234-5678', '1992-11-05', 'Bangalore', 'Male', 'Straight',
+    '[{"preference": "City", "frequency": "Frequent"}]', '["Culture", "Adventure"]', '["Exploration", "Vacation"]',
+    'Close-knit family.', 'Bangalore', 'Product Manager', 'Amazon', 'B.Tech in Engineering', 
+    'Progressive', 'Hindu', 'Bachelor\'s Degree', 'Occasionally', 'No', 'No', 'No', 
+    'Cycling and gym', 'Dog', '["Traveling", "Technology", "Gaming"]', 
+    '["Creativity", "Loyalty", "Integrity"]', '["https://www.instagram.com/p/C6E2lJhH6I8/media/?size=l", "https://www.instagram.com/p/C6F1kJhJ5K9/media/?size=l"]', 
+    'Bio of Rajiv Joshi'
+);
+
+-- Insert 34
+INSERT INTO TravelMates_Users (
+    full_name, email, phone_number, date_of_birth, location, gender, sexuality,
+    travel_preferences, travel_types, traveling_intentions, family_details,
+    hometown, job_title, workplace, education, political_beliefs, religious_beliefs,
+    highest_education_level, drinking_habits, smoking_tobacco, smoking_weed, drug_use,
+    workout_habits, pets, interests, values_in_person, profile_pictures, bio
+) VALUES (
+    'Tanya Gupta', 'tanya.gupta@example.com', '555-345-6789', '1989-12-10', 'Noida', 'Female', 'Straight',
+    '[{"preference": "Countryside", "frequency": "Occasional"}]', '["Adventure", "Relaxation"]', '["Exploration", "Vacation"]',
+    'Supportive family.', 'Noida', 'HR Consultant', 'PwC', 'MHRM', 
+    'Neutral', 'Hindu', 'Master\'s Degree', 'Socially', 'No', 'No', 'No', 
+    'Gym and swimming', 'Dog', '["Traveling", "HR", "Reading"]', 
+    '["Integrity", "Respect", "Kindness"]', '["https://www.instagram.com/p/C6G5lJhJ1K6/media/?size=l", "https://www.instagram.com/p/C6H8kJhG5L2/media/?size=l"]', 
+    'Bio of Tanya Gupta'
+);
+
+-- Insert 35
+INSERT INTO TravelMates_Users (
+    full_name, email, phone_number, date_of_birth, location, gender, sexuality,
+    travel_preferences, travel_types, traveling_intentions, family_details,
+    hometown, job_title, workplace, education, political_beliefs, religious_beliefs,
+    highest_education_level, drinking_habits, smoking_tobacco, smoking_weed, drug_use,
+    workout_habits, pets, interests, values_in_person, profile_pictures, bio
+) VALUES (
+    'Vikram Mehta', 'vikram.mehta@example.com', '555-456-7890', '1987-01-18', 'Delhi', 'Male', 'Straight',
+    '[{"preference": "Beach", "frequency": "Frequent"}]', '["Adventure", "Relaxation"]', '["Exploration", "Vacation"]',
+    'Close-knit family.', 'Delhi', 'Business Analyst', 'Accenture', 'MBA', 
+    'Progressive', 'Hindu', 'Master\'s Degree', 'Occasionally', 'No', 'No', 'No', 
+    'Cycling and jogging', 'Dog', '["Traveling", "Business", "Technology"]', 
+    '["Creativity", "Loyalty", "Integrity"]', '["https://www.instagram.com/p/C6I9kJhJ8L5/media/?size=l", "https://www.instagram.com/p/C6J8lJhH2P1/media/?size=l"]', 
+    'Bio of Vikram Mehta'
+);
+
+-- Insert 36
+INSERT INTO TravelMates_Users (
+    full_name, email, phone_number, date_of_birth, location, gender, sexuality,
+    travel_preferences, travel_types, traveling_intentions, family_details,
+    hometown, job_title, workplace, education, political_beliefs, religious_beliefs,
+    highest_education_level, drinking_habits, smoking_tobacco, smoking_weed, drug_use,
+    workout_habits, pets, interests, values_in_person, profile_pictures, bio
+) VALUES (
+    'Neha Bhatia', 'neha.bhatia@example.com', '555-567-8901', '1995-06-09', 'Dehradun', 'Female', 'Straight',
+    '[{"preference": "Mountains", "frequency": "Occasional"}]', '["Adventure", "Relaxation"]', '["Exploration", "Vacation"]',
+    'Supportive family.', 'Dehradun', 'Content Writer', 'Freelancer', 'B.A. English', 
+    'Neutral', 'Hindu', 'Bachelor\'s Degree', 'Socially', 'No', 'No', 'No', 
+    'Yoga and hiking', 'Cat', '["Traveling", "Writing", "Photography"]', 
+    '["Creativity", "Respect", "Kindness"]', '["https://www.instagram.com/p/C6K7lJhG1I3/media/?size=l", "https://www.instagram.com/p/C6L5kJhH7D9/media/?size=l"]', 
+    'Bio of Neha Bhatia'
+);
+
+-- Insert 37
+INSERT INTO TravelMates_Users (
+    full_name, email, phone_number, date_of_birth, location, gender, sexuality,
+    travel_preferences, travel_types, traveling_intentions, family_details,
+    hometown, job_title, workplace, education, political_beliefs, religious_beliefs,
+    highest_education_level, drinking_habits, smoking_tobacco, smoking_weed, drug_use,
+    workout_habits, pets, interests, values_in_person, profile_pictures, bio
+) VALUES (
+    'Ravi Patel', 'ravi.patel@example.com', '555-678-9012', '1984-05-16', 'Ahmedabad', 'Male', 'Straight',
+    '[{"preference": "City", "frequency": "Frequent"}]', '["Adventure", "Relaxation"]', '["Exploration", "Vacation"]',
+    'Close-knit family.', 'Ahmedabad', 'Graphic Designer', 'Freelancer', 'B.Des', 
+    'Liberal', 'Hindu', 'Bachelor\'s Degree', 'Occasionally', 'No', 'No', 'No', 
+    'Gym and cycling', 'None', '["Traveling", "Design", "Art"]', 
+    '["Creativity", "Integrity", "Loyalty"]', '["https://www.instagram.com/p/C6M4lJhH2J1/media/?size=l", "https://www.instagram.com/p/C6N5kJhH8D2/media/?size=l"]', 
+    'Bio of Ravi Patel'
+);
+
+-- Insert 38
+INSERT INTO TravelMates_Users (
+    full_name, email, phone_number, date_of_birth, location, gender, sexuality,
+    travel_preferences, travel_types, traveling_intentions, family_details,
+    hometown, job_title, workplace, education, political_beliefs, religious_beliefs,
+    highest_education_level, drinking_habits, smoking_tobacco, smoking_weed, drug_use,
+    workout_habits, pets, interests, values_in_person, profile_pictures, bio
+) VALUES (
+    'Ayesha Khan', 'ayesha.khan@example.com', '555-789-0123', '1992-07-22', 'Lucknow', 'Female', 'Straight',
+    '[{"preference": "Countryside", "frequency": "Frequent"}]', '["Adventure", "Relaxation"]', '["Exploration", "Vacation"]',
+    'Supportive family.', 'Lucknow', 'Data Analyst', 'Tata Consultancy Services', 'M.Sc in Statistics', 
+    'Neutral', 'Muslim', 'Master\'s Degree', 'Socially', 'No', 'No', 'No', 
+    'Gym and jogging', 'None', '["Traveling", "Data Analysis", "Music"]', 
+    '["Integrity", "Respect", "Kindness"]', '["https://www.instagram.com/p/C6O2lJhH5K4/media/?size=l", "https://www.instagram.com/p/C6P9kJhH6D8/media/?size=l"]', 
+    'Bio of Ayesha Khan'
+);
+
+-- Insert 39
+INSERT INTO TravelMates_Users (
+    full_name, email, phone_number, date_of_birth, location, gender, sexuality,
+    travel_preferences, travel_types, traveling_intentions, family_details,
+    hometown, job_title, workplace, education, political_beliefs, religious_beliefs,
+    highest_education_level, drinking_habits, smoking_tobacco, smoking_weed, drug_use,
+    workout_habits, pets, interests, values_in_person, profile_pictures, bio
+) VALUES (
+    'Ankit Sharma', 'ankit.sharma@example.com', '555-890-1234', '1986-11-30', 'Gurgaon', 'Male', 'Straight',
+    '[{"preference": "Beach", "frequency": "Occasional"}]', '["Adventure", "Relaxation"]', '["Exploration", "Vacation"]',
+    'Close-knit family.', 'Gurgaon', 'Software Developer', 'Capgemini', 'B.Tech in IT', 
+    'Liberal', 'Hindu', 'Bachelor\'s Degree', 'Socially', 'No', 'No', 'No', 
+    'Cycling and gym', 'Dog', '["Traveling", "Programming", "Music"]', 
+    '["Creativity", "Loyalty", "Integrity"]', '["https://www.instagram.com/p/C6Q7lJhJ4K9/media/?size=l", "https://www.instagram.com/p/C6R6kJhH2L1/media/?size=l"]', 
+    'Bio of Ankit Sharma'
+);
+
+-- Insert 40
+INSERT INTO TravelMates_Users (
+    full_name, email, phone_number, date_of_birth, location, gender, sexuality,
+    travel_preferences, travel_types, traveling_intentions, family_details,
+    hometown, job_title, workplace, education, political_beliefs, religious_beliefs,
+    highest_education_level, drinking_habits, smoking_tobacco, smoking_weed, drug_use,
+    workout_habits, pets, interests, values_in_person, profile_pictures, bio
+) VALUES (
+    'Pooja Agarwal', 'pooja.agarwal@example.com', '555-901-2345', '1993-02-20', 'Jaipur', 'Female', 'Straight',
+    '[{"preference": "Mountains", "frequency": "Occasional"}]', '["Adventure", "Relaxation"]', '["Exploration", "Vacation"]',
+    'Supportive family.', 'Jaipur', 'Project Manager', 'HCL', 'MBA', 
+    'Neutral', 'Hindu', 'Master\'s Degree', 'Socially', 'No', 'No', 'No', 
+    'Yoga and running', 'Cat', '["Traveling", "Project Management", "Cooking"]', 
+    '["Integrity", "Respect", "Empathy"]', '["https://www.instagram.com/p/C6S8kJhH9L3/media/?size=l", "https://www.instagram.com/p/C6T5lJhH2P4/media/?size=l"]', 
+    'Bio of Pooja Agarwal'
+);
+
+-- Insert 41
+INSERT INTO TravelMates_Users (
+    full_name, email, phone_number, date_of_birth, location, gender, sexuality,
+    travel_preferences, travel_types, traveling_intentions, family_details,
+    hometown, job_title, workplace, education, political_beliefs, religious_beliefs,
+    highest_education_level, drinking_habits, smoking_tobacco, smoking_weed, drug_use,
+    workout_habits, pets, interests, values_in_person, profile_pictures, bio
+) VALUES (
+    'Ritika Sharma', 'ritika.sharma@example.com', '555-012-3456', '1994-03-08', 'Pune', 'Female', 'Straight',
+    '[{"preference": "City", "frequency": "Frequent"}]', '["Adventure", "Relaxation"]', '["Exploration", "Vacation"]',
+    'Supportive family.', 'Pune', 'UX Designer', 'Freelancer', 'B.Des', 
+    'Progressive', 'Hindu', 'Bachelor\'s Degree', 'Socially', 'No', 'No', 'No', 
+    'Yoga and pilates', 'Dog', '["Traveling", "Design", "Music"]', 
+    '["Creativity", "Empathy", "Respect"]', '["https://www.instagram.com/p/C6T9kJhH2M3/media/?size=l", "https://www.instagram.com/p/C6U5lJhH4N8/media/?size=l"]', 
+    'Bio of Ritika Sharma'
+);
+
+-- Insert 42
+INSERT INTO TravelMates_Users (
+    full_name, email, phone_number, date_of_birth, location, gender, sexuality,
+    travel_preferences, travel_types, traveling_intentions, family_details,
+    hometown, job_title, workplace, education, political_beliefs, religious_beliefs,
+    highest_education_level, drinking_habits, smoking_tobacco, smoking_weed, drug_use,
+    workout_habits, pets, interests, values_in_person, profile_pictures, bio
+) VALUES (
+    'Amit Desai', 'amit.desai@example.com', '555-234-5678', '1988-09-15', 'Surat', 'Male', 'Straight',
+    '[{"preference": "Countryside", "frequency": "Occasional"}]', '["Adventure", "Relaxation"]', '["Vacation", "Exploration"]',
+    'Close-knit family.', 'Surat', 'Business Analyst', 'Wipro', 'B.Com', 
+    'Neutral', 'Hindu', 'Bachelor\'s Degree', 'Occasionally', 'No', 'No', 'No', 
+    'Cycling and gym', 'None', '["Traveling", "Finance", "Cooking"]', 
+    '["Integrity", "Loyalty", "Respect"]', '["https://www.instagram.com/p/C6V7lJhH5M9/media/?size=l", "https://www.instagram.com/p/C6W4kJhH3K5/media/?size=l"]', 
+    'Bio of Amit Desai'
+);
+
+-- Insert 43
+INSERT INTO TravelMates_Users (
+    full_name, email, phone_number, date_of_birth, location, gender, sexuality,
+    travel_preferences, travel_types, traveling_intentions, family_details,
+    hometown, job_title, workplace, education, political_beliefs, religious_beliefs,
+    highest_education_level, drinking_habits, smoking_tobacco, smoking_weed, drug_use,
+    workout_habits, pets, interests, values_in_person, profile_pictures, bio
+) VALUES (
+    'Anita Nair', 'anita.nair@example.com', '555-345-6789', '1991-07-01', 'Kochi', 'Female', 'Straight',
+    '[{"preference": "Beach", "frequency": "Frequent"}]', '["Adventure", "Relaxation"]', '["Exploration", "Vacation"]',
+    'Supportive family.', 'Kochi', 'Content Strategist', 'Zoho', 'M.A. English', 
+    'Liberal', 'Christian', 'Master\'s Degree', 'Socially', 'No', 'No', 'No', 
+    'Swimming and gym', 'Cat', '["Traveling", "Writing", "Art"]', 
+    '["Creativity", "Kindness", "Respect"]', '["https://www.instagram.com/p/C6X9lJhH4M1/media/?size=l", "https://www.instagram.com/p/C6Y7kJhH5N3/media/?size=l"]', 
+    'Bio of Anita Nair'
+);
+
+-- Insert 44
+INSERT INTO TravelMates_Users (
+    full_name, email, phone_number, date_of_birth, location, gender, sexuality,
+    travel_preferences, travel_types, traveling_intentions, family_details,
+    hometown, job_title, workplace, education, political_beliefs, religious_beliefs,
+    highest_education_level, drinking_habits, smoking_tobacco, smoking_weed, drug_use,
+    workout_habits, pets, interests, values_in_person, profile_pictures, bio
+) VALUES (
+    'Deepak Jain', 'deepak.jain@example.com', '555-456-7890', '1982-12-21', 'Noida', 'Male', 'Straight',
+    '[{"preference": "Mountains", "frequency": "Occasional"}]', '["Adventure", "Relaxation"]', '["Exploration", "Vacation"]',
+    'Close-knit family.', 'Noida', 'Software Engineer', 'Infosys', 'B.Tech in Computer Science', 
+    'Progressive', 'Hindu', 'Bachelor\'s Degree', 'Socially', 'No', 'No', 'No', 
+    'Gym and hiking', 'Dog', '["Traveling", "Programming", "Music"]', 
+    '["Integrity", "Loyalty", "Creativity"]', '["https://www.instagram.com/p/C6Z6lJhH1M2/media/?size=l", "https://www.instagram.com/p/C6a8kJhH5O9/media/?size=l"]', 
+    'Bio of Deepak Jain'
+);
+
+-- Insert 45
+INSERT INTO TravelMates_Users (
+    full_name, email, phone_number, date_of_birth, location, gender, sexuality,
+    travel_preferences, travel_types, traveling_intentions, family_details,
+    hometown, job_title, workplace, education, political_beliefs, religious_beliefs,
+    highest_education_level, drinking_habits, smoking_tobacco, smoking_weed, drug_use,
+    workout_habits, pets, interests, values_in_person, profile_pictures, bio
+) VALUES (
+    'Sanya Kapoor', 'sanya.kapoor@example.com', '555-567-8901', '1993-04-30', 'Bhopal', 'Female', 'Straight',
+    '[{"preference": "City", "frequency": "Frequent"}]', '["Adventure", "Relaxation"]', '["Exploration", "Vacation"]',
+    'Supportive family.', 'Bhopal', 'Marketing Manager', 'ICICI Bank', 'MBA', 
+    'Liberal', 'Hindu', 'Master\'s Degree', 'Socially', 'No', 'No', 'No', 
+    'Running and yoga', 'Cat', '["Traveling", "Marketing", "Reading"]', 
+    '["Creativity", "Respect", "Kindness"]', '["https://www.instagram.com/p/C6b9lJhH7K8/media/?size=l", "https://www.instagram.com/p/C6c7kJhH6L3/media/?size=l"]', 
+    'Bio of Sanya Kapoor'
+);
+
+-- Insert 46
+INSERT INTO TravelMates_Users (
+    full_name, email, phone_number, date_of_birth, location, gender, sexuality,
+    travel_preferences, travel_types, traveling_intentions, family_details,
+    hometown, job_title, workplace, education, political_beliefs, religious_beliefs,
+    highest_education_level, drinking_habits, smoking_tobacco, smoking_weed, drug_use,
+    workout_habits, pets, interests, values_in_person, profile_pictures, bio
+) VALUES (
+    'Rajesh Kumar', 'rajesh.kumar@example.com', '555-678-9012', '1987-11-11', 'Chandigarh', 'Male', 'Straight',
+    '[{"preference": "Countryside", "frequency": "Occasional"}]', '["Adventure", "Relaxation"]', '["Exploration", "Vacation"]',
+    'Close-knit family.', 'Chandigarh', 'Product Manager', 'Wipro', 'B.Tech in Engineering', 
+    'Neutral', 'Hindu', 'Bachelor\'s Degree', 'Occasionally', 'No', 'No', 'No', 
+    'Cycling and gym', 'Dog', '["Traveling", "Technology", "Gaming"]', 
+    '["Integrity", "Loyalty", "Creativity"]', '["https://www.instagram.com/p/C6d8kJhH5O3/media/?size=l", "https://www.instagram.com/p/C6e5lJhH9P7/media/?size=l"]', 
+    'Bio of Rajesh Kumar'
+);
+
+-- Insert 47
+INSERT INTO TravelMates_Users (
+    full_name, email, phone_number, date_of_birth, location, gender, sexuality,
+    travel_preferences, travel_types, traveling_intentions, family_details,
+    hometown, job_title, workplace, education, political_beliefs, religious_beliefs,
+    highest_education_level, drinking_habits, smoking_tobacco, smoking_weed, drug_use,
+    workout_habits, pets, interests, values_in_person, profile_pictures, bio
+) VALUES (
+    'Neha Agarwal', 'neha.agarwal@example.com', '555-789-0124', '1995-06-22', 'Nagpur', 'Female', 'Straight',
+    '[{"preference": "Mountains", "frequency": "Occasional"}]', '["Adventure", "Relaxation"]', '["Exploration", "Vacation"]',
+    'Supportive family.', 'Nagpur', 'HR Specialist', 'HDFC Bank', 'MBA', 
+    'Progressive', 'Hindu', 'Master\'s Degree', 'Socially', 'No', 'No', 'No', 
+    'Swimming and hiking', 'Dog', '["Traveling", "HR Management", "Cooking"]', 
+    '["Integrity", "Respect", "Empathy"]', '["https://www.instagram.com/p/C6f8kJhH1M4/media/?size=l", "https://www.instagram.com/p/C6g5lJhH3O8/media/?size=l"]', 
+    'Bio of Neha Agarwal'
+);
+
+-- Insert 48
+INSERT INTO TravelMates_Users (
+    full_name, email, phone_number, date_of_birth, location, gender, sexuality,
+    travel_preferences, travel_types, traveling_intentions, family_details,
+    hometown, job_title, workplace, education, political_beliefs, religious_beliefs,
+    highest_education_level, drinking_habits, smoking_tobacco, smoking_weed, drug_use,
+    workout_habits, pets, interests, values_in_person, profile_pictures, bio
+) VALUES (
+    'Siddharth Roy', 'siddharth.roy@example.com', '555-890-1235', '1990-10-10', 'Indore', 'Male', 'Straight',
+    '[{"preference": "City", "frequency": "Frequent"}]', '["Adventure", "Relaxation"]', '["Exploration", "Vacation"]',
+    'Close-knit family.', 'Indore', 'Financial Analyst', 'HDFC Bank', 'M.Com', 
+    'Neutral', 'Hindu', 'Master\'s Degree', 'Occasionally', 'No', 'No', 'No', 
+    'Gym and running', 'None', '["Traveling", "Finance", "Music"]', 
+    '["Integrity", "Loyalty", "Creativity"]', '["https://www.instagram.com/p/C6h9lJhH6P5/media/?size=l", "https://www.instagram.com/p/C6i7kJhH9M2/media/?size=l"]', 
+    'Bio of Siddharth Roy'
+);
+
+-- Insert 49
+INSERT INTO TravelMates_Users (
+    full_name, email, phone_number, date_of_birth, location, gender, sexuality,
+    travel_preferences, travel_types, traveling_intentions, family_details,
+    hometown, job_title, workplace, education, political_beliefs, religious_beliefs,
+    highest_education_level, drinking_habits, smoking_tobacco, smoking_weed, drug_use,
+    workout_habits, pets, interests, values_in_person, profile_pictures, bio
+) VALUES (
+    'Meera Rao', 'meera.rao@example.com', '555-901-2346', '1997-08-18', 'Bhubaneswar', 'Female', 'Straight',
+    '[{"preference": "Countryside", "frequency": "Occasional"}]', '["Adventure", "Relaxation"]', '["Exploration", "Vacation"]',
+    'Supportive family.', 'Bhubaneswar', 'Product Designer', 'Freelancer', 'B.Des', 
+    'Progressive', 'Hindu', 'Bachelor\'s Degree', 'Socially', 'No', 'No', 'No', 
+    'Yoga and hiking', 'Dog', '["Traveling", "Design", "Art"]', 
+    '["Creativity", "Empathy", "Respect"]', '["https://www.instagram.com/p/C6j7kJhH2O4/media/?size=l", "https://www.instagram.com/p/C6k5lJhH6P1/media/?size=l"]', 
+    'Bio of Meera Rao'
+);
+
+-- Insert 50
+INSERT INTO TravelMates_Users (
+    full_name, email, phone_number, date_of_birth, location, gender, sexuality,
+    travel_preferences, travel_types, traveling_intentions, family_details,
+    hometown, job_title, workplace, education, political_beliefs, religious_beliefs,
+    highest_education_level, drinking_habits, smoking_tobacco, smoking_weed, drug_use,
+    workout_habits, pets, interests, values_in_person, profile_pictures, bio
+) VALUES (
+    'Amitabh Bachchan', 'amitabh.bachchan@example.com', '555-012-3457', '1972-05-25', 'Delhi', 'Male', 'Straight',
+    '[{"preference": "Beach", "frequency": "Frequent"}]', '["Adventure", "Relaxation"]', '["Exploration", "Vacation"]',
+    'Supportive family.', 'Delhi', 'Film Actor', 'Freelancer', 'B.A. in Literature', 
+    'Neutral', 'Hindu', 'Bachelor\'s Degree', 'Socially', 'No', 'No', 'No', 
+    'Gym and swimming', 'None', '["Traveling", "Acting", "Philanthropy"]', 
+    '["Integrity", "Generosity", "Creativity"]', '["https://www.instagram.com/p/C6l8kJhH5M6/media/?size=l", "https://www.instagram.com/p/C6m5lJhH3N9/media/?size=l"]', 
+    'Bio of Amitabh Bachchan'
+);
+
+-- Insert 51
+INSERT INTO TravelMates_Users (
+    full_name, email, phone_number, date_of_birth, location, gender, sexuality,
+    travel_preferences, travel_types, traveling_intentions, family_details,
+    hometown, job_title, workplace, education, political_beliefs, religious_beliefs,
+    highest_education_level, drinking_habits, smoking_tobacco, smoking_weed, drug_use,
+    workout_habits, pets, interests, values_in_person, profile_pictures, bio
+) VALUES (
+    'Sonia Mehta', 'sonia.mehta@example.com', '555-234-5670', '1992-11-05', 'Jaipur', 'Female', 'Straight',
+    '[{"preference": "Mountains", "frequency": "Frequent"}]', '["Adventure", "Relaxation"]', '["Exploration", "Vacation"]',
+    'Close-knit family.', 'Jaipur', 'Content Creator', 'Freelancer', 'B.A. in Media Studies', 
+    'Progressive', 'Hindu', 'Bachelor\'s Degree', 'Socially', 'No', 'No', 'No', 
+    'Yoga and trekking', 'Dog', '["Traveling", "Photography", "Writing"]', 
+    '["Creativity", "Kindness", "Adventure"]', '["https://www.instagram.com/p/C6m8kJhH1N3/media/?size=l", "https://www.instagram.com/p/C6n5lJhH4O7/media/?size=l"]', 
+    'Bio of Sonia Mehta'
+);
+
+-- Insert 52
+INSERT INTO TravelMates_Users (
+    full_name, email, phone_number, date_of_birth, location, gender, sexuality,
+    travel_preferences, travel_types, traveling_intentions, family_details,
+    hometown, job_title, workplace, education, political_beliefs, religious_beliefs,
+    highest_education_level, drinking_habits, smoking_tobacco, smoking_weed, drug_use,
+    workout_habits, pets, interests, values_in_person, profile_pictures, bio
+) VALUES (
+    'Rajiv Gupta', 'rajiv.gupta@example.com', '555-345-6781', '1985-01-22', 'Chennai', 'Male', 'Straight',
+    '[{"preference": "Beach", "frequency": "Occasional"}]', '["Adventure", "Relaxation"]', '["Vacation", "Exploration"]',
+    'Supportive family.', 'Chennai', 'Data Scientist', 'TCS', 'M.Sc. in Data Science', 
+    'Neutral', 'Hindu', 'Master\'s Degree', 'Socially', 'No', 'No', 'No', 
+    'Running and gym', 'Cat', '["Traveling", "Data Analysis", "Music"]', 
+    '["Integrity", "Respect", "Creativity"]', '["https://www.instagram.com/p/C6o8kJhH5N2/media/?size=l", "https://www.instagram.com/p/C6p5lJhH7O8/media/?size=l"]', 
+    'Bio of Rajiv Gupta'
+);
+
+-- Insert 53
+INSERT INTO TravelMates_Users (
+    full_name, email, phone_number, date_of_birth, location, gender, sexuality,
+    travel_preferences, travel_types, traveling_intentions, family_details,
+    hometown, job_title, workplace, education, political_beliefs, religious_beliefs,
+    highest_education_level, drinking_habits, smoking_tobacco, smoking_weed, drug_use,
+    workout_habits, pets, interests, values_in_person, profile_pictures, bio
+) VALUES (
+    'Aarti Patel', 'aarti.patel@example.com', '555-456-7891', '1990-06-18', 'Bangalore', 'Female', 'Straight',
+    '[{"preference": "Countryside", "frequency": "Occasional"}]', '["Adventure", "Relaxation"]', '["Exploration", "Vacation"]',
+    'Close-knit family.', 'Bangalore', 'Software Developer', 'Infosys', 'B.Tech in IT', 
+    'Liberal', 'Hindu', 'Bachelor\'s Degree', 'Socially', 'No', 'No', 'No', 
+    'Yoga and gym', 'Dog', '["Traveling", "Programming", "Cooking"]', 
+    '["Integrity", "Respect", "Creativity"]', '["https://www.instagram.com/p/C6q5lJhH9O5/media/?size=l", "https://www.instagram.com/p/C6r7kJhH2N4/media/?size=l"]', 
+    'Bio of Aarti Patel'
+);
+
+-- Insert 54
+INSERT INTO TravelMates_Users (
+    full_name, email, phone_number, date_of_birth, location, gender, sexuality,
+    travel_preferences, travel_types, traveling_intentions, family_details,
+    hometown, job_title, workplace, education, political_beliefs, religious_beliefs,
+    highest_education_level, drinking_habits, smoking_tobacco, smoking_weed, drug_use,
+    workout_habits, pets, interests, values_in_person, profile_pictures, bio
+) VALUES (
+    'Amit Sharma', 'amit.sharma@example.com', '555-567-8902', '1986-05-12', 'Ahmedabad', 'Male', 'Straight',
+    '[{"preference": "City", "frequency": "Frequent"}]', '["Adventure", "Relaxation"]', '["Vacation", "Exploration"]',
+    'Supportive family.', 'Ahmedabad', 'Project Manager', 'Cognizant', 'MBA', 
+    'Neutral', 'Hindu', 'Master\'s Degree', 'Occasionally', 'No', 'No', 'No', 
+    'Cycling and gym', 'None', '["Traveling", "Management", "Photography"]', 
+    '["Integrity", "Respect", "Creativity"]', '["https://www.instagram.com/p/C6s8kJhH2N6/media/?size=l", "https://www.instagram.com/p/C6t5lJhH3M5/media/?size=l"]', 
+    'Bio of Amit Sharma'
+);
+
+-- Insert 55
+INSERT INTO TravelMates_Users (
+    full_name, email, phone_number, date_of_birth, location, gender, sexuality,
+    travel_preferences, travel_types, traveling_intentions, family_details,
+    hometown, job_title, workplace, education, political_beliefs, religious_beliefs,
+    highest_education_level, drinking_habits, smoking_tobacco, smoking_weed, drug_use,
+    workout_habits, pets, interests, values_in_person, profile_pictures, bio
+) VALUES (
+    'Rohit Kumar', 'rohit.kumar@example.com', '555-678-9013', '1993-09-25', 'Pune', 'Male', 'Straight',
+    '[{"preference": "Mountains", "frequency": "Occasional"}]', '["Adventure", "Relaxation"]', '["Exploration", "Vacation"]',
+    'Close-knit family.', 'Pune', 'Marketing Executive', 'HDFC Bank', 'BBA', 
+    'Progressive', 'Hindu', 'Bachelor\'s Degree', 'Socially', 'No', 'No', 'No', 
+    'Running and gym', 'Dog', '["Traveling", "Marketing", "Fitness"]', 
+    '["Creativity", "Respect", "Integrity"]', '["https://www.instagram.com/p/C6u8kJhH5N7/media/?size=l", "https://www.instagram.com/p/C6v5lJhH2N8/media/?size=l"]', 
+    'Bio of Rohit Kumar'
+);
+
+-- Insert 56
+INSERT INTO TravelMates_Users (
+    full_name, email, phone_number, date_of_birth, location, gender, sexuality,
+    travel_preferences, travel_types, traveling_intentions, family_details,
+    hometown, job_title, workplace, education, political_beliefs, religious_beliefs,
+    highest_education_level, drinking_habits, smoking_tobacco, smoking_weed, drug_use,
+    workout_habits, pets, interests, values_in_person, profile_pictures, bio
+) VALUES (
+    'Nisha Rao', 'nisha.rao@example.com', '555-789-0125', '1989-07-14', 'Delhi', 'Female', 'Straight',
+    '[{"preference": "Beach", "frequency": "Frequent"}]', '["Adventure", "Relaxation"]', '["Vacation", "Exploration"]',
+    'Supportive family.', 'Delhi', 'Product Manager', 'Amazon', 'MBA', 
+    'Liberal', 'Hindu', 'Master\'s Degree', 'Socially', 'No', 'No', 'No', 
+    'Cycling and gym', 'Cat', '["Traveling", "Product Management", "Cooking"]', 
+    '["Creativity", "Respect", "Integrity"]', '["https://www.instagram.com/p/C6w5lJhH4N7/media/?size=l", "https://www.instagram.com/p/C6x8kJhH3O9/media/?size=l"]', 
+    'Bio of Nisha Rao'
+);
+
+-- Insert 57
+INSERT INTO TravelMates_Users (
+    full_name, email, phone_number, date_of_birth, location, gender, sexuality,
+    travel_preferences, travel_types, traveling_intentions, family_details,
+    hometown, job_title, workplace, education, political_beliefs, religious_beliefs,
+    highest_education_level, drinking_habits, smoking_tobacco, smoking_weed, drug_use,
+    workout_habits, pets, interests, values_in_person, profile_pictures, bio
+) VALUES (
+    'Vikram Singh', 'vikram.singh@example.com', '555-890-1236', '1994-03-29', 'Kolkata', 'Male', 'Straight',
+    '[{"preference": "City", "frequency": "Frequent"}]', '["Adventure", "Relaxation"]', '["Exploration", "Vacation"]',
+    'Close-knit family.', 'Kolkata', 'Software Engineer', 'Wipro', 'B.Tech in CS', 
+    'Neutral', 'Hindu', 'Bachelor\'s Degree', 'Occasionally', 'No', 'No', 'No', 
+    'Running and gym', 'None', '["Traveling", "Technology", "Music"]', 
+    '["Integrity", "Respect", "Innovation"]', '["https://www.instagram.com/p/C6y5lJhH9M3/media/?size=l", "https://www.instagram.com/p/C6z8kJhH2O7/media/?size=l"]', 
+    'Bio of Vikram Singh'
+);
+
+-- Insert 58
+INSERT INTO TravelMates_Users (
+    full_name, email, phone_number, date_of_birth, location, gender, sexuality,
+    travel_preferences, travel_types, traveling_intentions, family_details,
+    hometown, job_title, workplace, education, political_beliefs, religious_beliefs,
+    highest_education_level, drinking_habits, smoking_tobacco, smoking_weed, drug_use,
+    workout_habits, pets, interests, values_in_person, profile_pictures, bio
+) VALUES (
+    'Sneha Joshi', 'sneha.joshi@example.com', '555-901-2347', '1998-10-13', 'Hyderabad', 'Female', 'Straight',
+    '[{"preference": "Countryside", "frequency": "Occasional"}]', '["Adventure", "Relaxation"]', '["Exploration", "Vacation"]',
+    'Supportive family.', 'Hyderabad', 'Sales Manager', 'Flipkart', 'MBA', 
+    'Liberal', 'Hindu', 'Master\'s Degree', 'Socially', 'No', 'No', 'No', 
+    'Swimming and hiking', 'Dog', '["Traveling", "Sales", "Fitness"]', 
+    '["Integrity", "Respect", "Creativity"]', '["https://www.instagram.com/p/C6z5lJhH9N4/media/?size=l", "https://www.instagram.com/p/C7A8kJhH2O9/media/?size=l"]', 
+    'Bio of Sneha Joshi'
+);
+
+-- Insert 59
+INSERT INTO TravelMates_Users (
+    full_name, email, phone_number, date_of_birth, location, gender, sexuality,
+    travel_preferences, travel_types, traveling_intentions, family_details,
+    hometown, job_title, workplace, education, political_beliefs, religious_beliefs,
+    highest_education_level, drinking_habits, smoking_tobacco, smoking_weed, drug_use,
+    workout_habits, pets, interests, values_in_person, profile_pictures, bio
+) VALUES (
+    'Arjun Patel', 'arjun.patel@example.com', '555-012-3458', '1987-12-09', 'Surat', 'Male', 'Straight',
+    '[{"preference": "Beach", "frequency": "Frequent"}]', '["Adventure", "Relaxation"]', '["Exploration", "Vacation"]',
+    'Supportive family.', 'Surat', 'Graphic Designer', 'Freelancer', 'B.Des', 
+    'Neutral', 'Hindu', 'Bachelor\'s Degree', 'Socially', 'No', 'No', 'No', 
+    'Gym and swimming', 'Dog', '["Traveling", "Design", "Art"]', 
+    '["Creativity", "Respect", "Integrity"]', '["https://www.instagram.com/p/C7B8kJhH5N8/media/?size=l", "https://www.instagram.com/p/C7C5lJhH2N3/media/?size=l"]', 
+    'Bio of Arjun Patel'
+);
+
+-- Insert 60
+INSERT INTO TravelMates_Users (
+    full_name, email, phone_number, date_of_birth, location, gender, sexuality,
+    travel_preferences, travel_types, traveling_intentions, family_details,
+    hometown, job_title, workplace, education, political_beliefs, religious_beliefs,
+    highest_education_level, drinking_habits, smoking_tobacco, smoking_weed, drug_use,
+    workout_habits, pets, interests, values_in_person, profile_pictures, bio
+) VALUES (
+    'Ravi Kumar', 'ravi.kumar@example.com', '555-123-4567', '1988-11-03', 'Noida', 'Male', 'Straight',
+    '[{"preference": "Mountains", "frequency": "Occasional"}]', '["Adventure", "Relaxation"]', '["Vacation", "Exploration"]',
+    'Close-knit family.', 'Noida', 'IT Consultant', 'Freelancer', 'B.Tech in IT', 
+    'Progressive', 'Hindu', 'Bachelor\'s Degree', 'Socially', 'No', 'No', 'No', 
+    'Yoga and running', 'None', '["Traveling", "Technology", "Music"]', 
+    '["Creativity", "Respect", "Integrity"]', '["https://www.instagram.com/p/C7D8kJhH4N9/media/?size=l", "https://www.instagram.com/p/C7E5lJhH1N2/media/?size=l"]', 
+    'Bio of Ravi Kumar'
+);
+-- Insert 61
+INSERT INTO TravelMates_Users (
+    full_name, email, phone_number, date_of_birth, location, gender, sexuality,
+    travel_preferences, travel_types, traveling_intentions, family_details,
+    hometown, job_title, workplace, education, political_beliefs, religious_beliefs,
+    highest_education_level, drinking_habits, smoking_tobacco, smoking_weed, drug_use,
+    workout_habits, pets, interests, values_in_person, profile_pictures, bio
+) VALUES (
+    'Anita Sharma', 'anita.sharma@example.com', '555-234-5678', '1985-04-19', 'Gurgaon', 'Female', 'Straight',
+    '[{"preference": "Beach", "frequency": "Frequent"}]', '["Adventure", "Relaxation"]', '["Vacation", "Exploration"]',
+    'Close-knit family.', 'Gurgaon', 'HR Manager', 'HCL', 'MBA', 
+    'Neutral', 'Hindu', 'Master\'s Degree', 'Socially', 'No', 'No', 'No', 
+    'Yoga and Pilates', 'Dog', '["Traveling", "HR Management", "Cooking"]', 
+    '["Creativity", "Respect", "Integrity"]', '["https://www.instagram.com/p/C7F8kJhH2O9/media/?size=l", "https://www.instagram.com/p/C7G5lJhH1N7/media/?size=l"]', 
+    'Bio of Anita Sharma'
+);
+
+-- Insert 62
+INSERT INTO TravelMates_Users (
+    full_name, email, phone_number, date_of_birth, location, gender, sexuality,
+    travel_preferences, travel_types, traveling_intentions, family_details,
+    hometown, job_title, workplace, education, political_beliefs, religious_beliefs,
+    highest_education_level, drinking_habits, smoking_tobacco, smoking_weed, drug_use,
+    workout_habits, pets, interests, values_in_person, profile_pictures, bio
+) VALUES (
+    'Suresh Reddy', 'suresh.reddy@example.com', '555-345-6789', '1982-08-30', 'Hyderabad', 'Male', 'Straight',
+    '[{"preference": "Mountains", "frequency": "Occasional"}]', '["Adventure", "Relaxation"]', '["Exploration", "Vacation"]',
+    'Supportive family.', 'Hyderabad', 'Web Developer', 'Freelancer', 'B.Tech in CS', 
+    'Liberal', 'Hindu', 'Bachelor\'s Degree', 'Socially', 'No', 'No', 'No', 
+    'Gym and hiking', 'None', '["Traveling", "Web Development", "Gaming"]', 
+    '["Integrity", "Creativity", "Respect"]', '["https://www.instagram.com/p/C7H8kJhH4N3/media/?size=l", "https://www.instagram.com/p/C7I5lJhH2O8/media/?size=l"]', 
+    'Bio of Suresh Reddy'
+);
+
+-- Insert 63
+INSERT INTO TravelMates_Users (
+    full_name, email, phone_number, date_of_birth, location, gender, sexuality,
+    travel_preferences, travel_types, traveling_intentions, family_details,
+    hometown, job_title, workplace, education, political_beliefs, religious_beliefs,
+    highest_education_level, drinking_habits, smoking_tobacco, smoking_weed, drug_use,
+    workout_habits, pets, interests, values_in_person, profile_pictures, bio
+) VALUES (
+    'Meera Joshi', 'meera.joshi@example.com', '555-456-7890', '1990-12-15', 'Delhi', 'Female', 'Straight',
+    '[{"preference": "Countryside", "frequency": "Frequent"}]', '["Adventure", "Relaxation"]', '["Exploration", "Vacation"]',
+    'Close-knit family.', 'Delhi', 'Product Designer', 'Oyo', 'B.Des', 
+    'Neutral', 'Hindu', 'Bachelor\'s Degree', 'Socially', 'No', 'No', 'No', 
+    'Cycling and yoga', 'Dog', '["Traveling", "Design", "Art"]', 
+    '["Creativity", "Integrity", "Respect"]', '["https://www.instagram.com/p/C7J8kJhH5N4/media/?size=l", "https://www.instagram.com/p/C7K5lJhH2O9/media/?size=l"]', 
+    'Bio of Meera Joshi'
+);
+
+-- Insert 64
+INSERT INTO TravelMates_Users (
+    full_name, email, phone_number, date_of_birth, location, gender, sexuality,
+    travel_preferences, travel_types, traveling_intentions, family_details,
+    hometown, job_title, workplace, education, political_beliefs, religious_beliefs,
+    highest_education_level, drinking_habits, smoking_tobacco, smoking_weed, drug_use,
+    workout_habits, pets, interests, values_in_person, profile_pictures, bio
+) VALUES (
+    'Rakesh Kumar', 'rakesh.kumar@example.com', '555-567-8901', '1988-11-25', 'Mumbai', 'Male', 'Straight',
+    '[{"preference": "City", "frequency": "Occasional"}]', '["Adventure", "Relaxation"]', '["Exploration", "Vacation"]',
+    'Supportive family.', 'Mumbai', 'Bank Manager', 'ICICI Bank', 'MBA', 
+    'Liberal', 'Hindu', 'Master\'s Degree', 'Occasionally', 'No', 'No', 'No', 
+    'Running and swimming', 'None', '["Traveling", "Finance", "Cooking"]', 
+    '["Respect", "Integrity", "Creativity"]', '["https://www.instagram.com/p/C7L8kJhH2N5/media/?size=l", "https://www.instagram.com/p/C7M5lJhH3O6/media/?size=l"]', 
+    'Bio of Rakesh Kumar'
+);
+
+-- Insert 65
+INSERT INTO TravelMates_Users (
+    full_name, email, phone_number, date_of_birth, location, gender, sexuality,
+    travel_preferences, travel_types, traveling_intentions, family_details,
+    hometown, job_title, workplace, education, political_beliefs, religious_beliefs,
+    highest_education_level, drinking_habits, smoking_tobacco, smoking_weed, drug_use,
+    workout_habits, pets, interests, values_in_person, profile_pictures, bio
+) VALUES (
+    'Nitin Mehta', 'nitin.mehta@example.com', '555-678-9012', '1991-05-09', 'Chennai', 'Male', 'Straight',
+    '[{"preference": "Beach", "frequency": "Frequent"}]', '["Adventure", "Relaxation"]', '["Vacation", "Exploration"]',
+    'Close-knit family.', 'Chennai', 'Software Consultant', 'Cognizant', 'B.Tech in IT', 
+    'Neutral', 'Hindu', 'Bachelor\'s Degree', 'Socially', 'No', 'No', 'No', 
+    'Gym and hiking', 'Dog', '["Traveling", "Consulting", "Gaming"]', 
+    '["Creativity", "Integrity", "Respect"]', '["https://www.instagram.com/p/C7N8kJhH4O2/media/?size=l", "https://www.instagram.com/p/C7O5lJhH2N8/media/?size=l"]', 
+    'Bio of Nitin Mehta'
+);
+
+-- Insert 66
+INSERT INTO TravelMates_Users (
+    full_name, email, phone_number, date_of_birth, location, gender, sexuality,
+    travel_preferences, travel_types, traveling_intentions, family_details,
+    hometown, job_title, workplace, education, political_beliefs, religious_beliefs,
+    highest_education_level, drinking_habits, smoking_tobacco, smoking_weed, drug_use,
+    workout_habits, pets, interests, values_in_person, profile_pictures, bio
+) VALUES (
+    'Kavita Singh', 'kavita.singh@example.com', '555-789-0123', '1984-07-16', 'Pune', 'Female', 'Straight',
+    '[{"preference": "Mountains", "frequency": "Occasional"}]', '["Adventure", "Relaxation"]', '["Exploration", "Vacation"]',
+    'Supportive family.', 'Pune', 'Graphic Designer', 'Freelancer', 'B.Des', 
+    'Liberal', 'Hindu', 'Bachelor\'s Degree', 'Socially', 'No', 'No', 'No', 
+    'Swimming and gym', 'Cat', '["Traveling", "Design", "Photography"]', 
+    '["Creativity", "Integrity", "Respect"]', '["https://www.instagram.com/p/C7P8kJhH1O3/media/?size=l", "https://www.instagram.com/p/C7Q5lJhH2O7/media/?size=l"]', 
+    'Bio of Kavita Singh'
+);
+
+-- Insert 67
+INSERT INTO TravelMates_Users (
+    full_name, email, phone_number, date_of_birth, location, gender, sexuality,
+    travel_preferences, travel_types, traveling_intentions, family_details,
+    hometown, job_title, workplace, education, political_beliefs, religious_beliefs,
+    highest_education_level, drinking_habits, smoking_tobacco, smoking_weed, drug_use,
+    workout_habits, pets, interests, values_in_person, profile_pictures, bio
+) VALUES (
+    'Deepak Sharma', 'deepak.sharma@example.com', '555-890-1234', '1992-02-05', 'Bangalore', 'Male', 'Straight',
+    '[{"preference": "City", "frequency": "Frequent"}]', '["Adventure", "Relaxation"]', '["Exploration", "Vacation"]',
+    'Close-knit family.', 'Bangalore', 'Marketing Executive', 'SAP', 'MBA', 
+    'Neutral', 'Hindu', 'Master\'s Degree', 'Socially', 'No', 'No', 'No', 
+    'Running and gym', 'Dog', '["Traveling", "Marketing", "Cooking"]', 
+    '["Creativity", "Respect", "Integrity"]', '["https://www.instagram.com/p/C7R8kJhH3N4/media/?size=l", "https://www.instagram.com/p/C7S5lJhH2O8/media/?size=l"]', 
+    'Bio of Deepak Sharma'
+);
+
+-- Insert 68
+INSERT INTO TravelMates_Users (
+    full_name, email, phone_number, date_of_birth, location, gender, sexuality,
+    travel_preferences, travel_types, traveling_intentions, family_details,
+    hometown, job_title, workplace, education, political_beliefs, religious_beliefs,
+    highest_education_level, drinking_habits, smoking_tobacco, smoking_weed, drug_use,
+    workout_habits, pets, interests, values_in_person, profile_pictures, bio
+) VALUES (
+    'Ritika Kapoor', 'ritika.kapoor@example.com', '555-901-2345', '1993-09-10', 'Delhi', 'Female', 'Straight',
+    '[{"preference": "Countryside", "frequency": "Occasional"}]', '["Adventure", "Relaxation"]', '["Exploration", "Vacation"]',
+    'Supportive family.', 'Delhi', 'Data Analyst', 'TCS', 'M.Tech', 
+    'Progressive', 'Hindu', 'Master\'s Degree', 'Socially', 'No', 'No', 'No', 
+    'Yoga and running', 'None', '["Traveling", "Data Analysis", "Fitness"]', 
+    '["Creativity", "Respect", "Integrity"]', '["https://www.instagram.com/p/C7T8kJhH1O6/media/?size=l", "https://www.instagram.com/p/C7U5lJhH2N9/media/?size=l"]', 
+    'Bio of Ritika Kapoor'
+);
+
+-- Insert 69
+INSERT INTO TravelMates_Users (
+    full_name, email, phone_number, date_of_birth, location, gender, sexuality,
+    travel_preferences, travel_types, traveling_intentions, family_details,
+    hometown, job_title, workplace, education, political_beliefs, religious_beliefs,
+    highest_education_level, drinking_habits, smoking_tobacco, smoking_weed, drug_use,
+    workout_habits, pets, interests, values_in_person, profile_pictures, bio
+) VALUES (
+    'Arvind Singh', 'arvind.singh@example.com', '555-012-3456', '1995-06-20', 'Mumbai', 'Male', 'Straight',
+    '[{"preference": "Beach", "frequency": "Frequent"}]', '["Adventure", "Relaxation"]', '["Vacation", "Exploration"]',
+    'Close-knit family.', 'Mumbai', 'Civil Engineer', 'L&T', 'B.Tech in Civil Engineering', 
+    'Neutral', 'Hindu', 'Bachelor\'s Degree', 'Occasionally', 'No', 'No', 'No', 
+    'Swimming and gym', 'Dog', '["Traveling", "Engineering", "Photography"]', 
+    '["Creativity", "Integrity", "Respect"]', '["https://www.instagram.com/p/C7V8kJhH4N9/media/?size=l", "https://www.instagram.com/p/C7W5lJhH2N1/media/?size=l"]', 
+    'Bio of Arvind Singh'
+);
+
+-- Insert 70
+INSERT INTO TravelMates_Users (
+    full_name, email, phone_number, date_of_birth, location, gender, sexuality,
+    travel_preferences, travel_types, traveling_intentions, family_details,
+    hometown, job_title, workplace, education, political_beliefs, religious_beliefs,
+    highest_education_level, drinking_habits, smoking_tobacco, smoking_weed, drug_use,
+    workout_habits, pets, interests, values_in_person, profile_pictures, bio
+) VALUES (
+    'Sonali Rao', 'sonali.rao@example.com', '555-123-4568', '1986-01-27', 'Bangalore', 'Female', 'Straight',
+    '[{"preference": "Mountains", "frequency": "Occasional"}]', '["Adventure", "Relaxation"]', '["Exploration", "Vacation"]',
+    'Supportive family.', 'Bangalore', 'Content Writer', 'Freelancer', 'MA in English', 
+    'Liberal', 'Hindu', 'Master\'s Degree', 'Socially', 'No', 'No', 'No', 
+    'Cycling and hiking', 'Cat', '["Traveling", "Writing", "Cooking"]', 
+    '["Creativity", "Integrity", "Respect"]', '["https://www.instagram.com/p/C7X8kJhH2N3/media/?size=l", "https://www.instagram.com/p/C7Y5lJhH1O4/media/?size=l"]', 
+    'Bio of Sonali Rao'
+);
+-- Insert 61
+INSERT INTO TravelMates_Users (
+    full_name, email, phone_number, date_of_birth, location, gender, sexuality,
+    travel_preferences, travel_types, traveling_intentions, family_details,
+    hometown, job_title, workplace, education, political_beliefs, religious_beliefs,
+    highest_education_level, drinking_habits, smoking_tobacco, smoking_weed, drug_use,
+    workout_habits, pets, interests, values_in_person, profile_pictures, bio
+) VALUES (
+    'Neha Sharma', 'neha.sharma@example.com', '555-234-6789', '1995-04-22', 'Delhi', 'Female', 'Straight',
+    '[{"preference": "City", "frequency": "Frequent"}]', '["Adventure", "Cultural"]', '["Exploration", "Vacation"]',
+    'Supportive family.', 'Delhi', 'HR Manager', 'Wipro', 'MBA in HR', 
+    'Liberal', 'Hindu', 'Master\'s Degree', 'Socially', 'No', 'No', 'No', 
+    'Gym and hiking', 'Cat', '["Traveling", "Human Resources", "Cooking"]', 
+    '["Honesty", "Respect", "Empathy"]', '["https://www.instagram.com/p/C8A1lJhH2O1/media/?size=l", "https://www.instagram.com/p/C8B2kJhH5P3/media/?size=l"]', 
+    'Bio of Neha Sharma'
+);
+
+-- Insert 62
+INSERT INTO TravelMates_Users (
+    full_name, email, phone_number, date_of_birth, location, gender, sexuality,
+    travel_preferences, travel_types, traveling_intentions, family_details,
+    hometown, job_title, workplace, education, political_beliefs, religious_beliefs,
+    highest_education_level, drinking_habits, smoking_tobacco, smoking_weed, drug_use,
+    workout_habits, pets, interests, values_in_person, profile_pictures, bio
+) VALUES (
+    'Arjun Verma', 'arjun.verma@example.com', '555-345-7890', '1988-12-15', 'Chennai', 'Male', 'Straight',
+    '[{"preference": "Countryside", "frequency": "Occasional"}]', '["Adventure", "Relaxation"]', '["Vacation", "Exploration"]',
+    'Close-knit family.', 'Chennai', 'Product Designer', 'Freelancer', 'B.Des in Product Design', 
+    'Neutral', 'Hindu', 'Bachelor\'s Degree', 'Occasionally', 'No', 'No', 'No', 
+    'Yoga and running', 'Dog', '["Traveling", "Design", "Cooking"]', 
+    '["Creativity", "Respect", "Innovation"]', '["https://www.instagram.com/p/C8C5lJhH1N4/media/?size=l", "https://www.instagram.com/p/C8D7kJhH6N2/media/?size=l"]', 
+    'Bio of Arjun Verma'
+);
+
+-- Insert 63
+INSERT INTO TravelMates_Users (
+    full_name, email, phone_number, date_of_birth, location, gender, sexuality,
+    travel_preferences, travel_types, traveling_intentions, family_details,
+    hometown, job_title, workplace, education, political_beliefs, religious_beliefs,
+    highest_education_level, drinking_habits, smoking_tobacco, smoking_weed, drug_use,
+    workout_habits, pets, interests, values_in_person, profile_pictures, bio
+) VALUES (
+    'Pooja Singh', 'pooja.singh@example.com', '555-456-8901', '1991-05-19', 'Bangalore', 'Female', 'Straight',
+    '[{"preference": "Mountains", "frequency": "Frequent"}]', '["Adventure", "Relaxation"]', '["Exploration", "Vacation"]',
+    'Supportive family.', 'Bangalore', 'Business Analyst', 'Accenture', 'MBA', 
+    'Liberal', 'Hindu', 'Master\'s Degree', 'Socially', 'No', 'No', 'No', 
+    'Swimming and gym', 'Cat', '["Traveling", "Business Analysis", "Fitness"]', 
+    '["Integrity", "Respect", "Creativity"]', '["https://www.instagram.com/p/C8E8kJhH3N1/media/?size=l", "https://www.instagram.com/p/C8F5lJhH2O8/media/?size=l"]', 
+    'Bio of Pooja Singh'
+);
+
+-- Insert 64
+INSERT INTO TravelMates_Users (
+    full_name, email, phone_number, date_of_birth, location, gender, sexuality,
+    travel_preferences, travel_types, traveling_intentions, family_details,
+    hometown, job_title, workplace, education, political_beliefs, religious_beliefs,
+    highest_education_level, drinking_habits, smoking_tobacco, smoking_weed, drug_use,
+    workout_habits, pets, interests, values_in_person, profile_pictures, bio
+) VALUES (
+    'Amit Sharma', 'amit.sharma@example.com', '555-567-9012', '1984-08-27', 'Hyderabad', 'Male', 'Straight',
+    '[{"preference": "Beach", "frequency": "Occasional"}]', '["Adventure", "Relaxation"]', '["Vacation", "Exploration"]',
+    'Close-knit family.', 'Hyderabad', 'Software Engineer', 'TCS', 'B.Tech in IT', 
+    'Neutral', 'Hindu', 'Bachelor\'s Degree', 'Occasionally', 'No', 'No', 'No', 
+    'Cycling and gym', 'Dog', '["Traveling", "Software Engineering", "Music"]', 
+    '["Creativity", "Respect", "Integrity"]', '["https://www.instagram.com/p/C8G8kJhH4N7/media/?size=l", "https://www.instagram.com/p/C8H5lJhH2O9/media/?size=l"]', 
+    'Bio of Amit Sharma'
+);
+
+-- Insert 65
+INSERT INTO TravelMates_Users (
+    full_name, email, phone_number, date_of_birth, location, gender, sexuality,
+    travel_preferences, travel_types, traveling_intentions, family_details,
+    hometown, job_title, workplace, education, political_beliefs, religious_beliefs,
+    highest_education_level, drinking_habits, smoking_tobacco, smoking_weed, drug_use,
+    workout_habits, pets, interests, values_in_person, profile_pictures, bio
+) VALUES (
+    'Meera Joshi', 'meera.joshi@example.com', '555-678-9013', '1997-01-09', 'Pune', 'Female', 'Straight',
+    '[{"preference": "Countryside", "frequency": "Frequent"}]', '["Adventure", "Relaxation"]', '["Exploration", "Vacation"]',
+    'Supportive family.', 'Pune', 'Digital Marketer', 'Flipkart', 'BBA in Marketing', 
+    'Progressive', 'Hindu', 'Bachelor\'s Degree', 'Socially', 'No', 'No', 'No', 
+    'Yoga and swimming', 'Dog', '["Traveling", "Marketing", "Cooking"]', 
+    '["Integrity", "Respect", "Creativity"]', '["https://www.instagram.com/p/C8I5lJhH1N6/media/?size=l", "https://www.instagram.com/p/C8J7kJhH2O4/media/?size=l"]', 
+    'Bio of Meera Joshi'
+);
+
+-- Insert 66
+INSERT INTO TravelMates_Users (
+    full_name, email, phone_number, date_of_birth, location, gender, sexuality,
+    travel_preferences, travel_types, traveling_intentions, family_details,
+    hometown, job_title, workplace, education, political_beliefs, religious_beliefs,
+    highest_education_level, drinking_habits, smoking_tobacco, smoking_weed, drug_use,
+    workout_habits, pets, interests, values_in_person, profile_pictures, bio
+) VALUES (
+    'Sanjay Kumar', 'sanjay.kumar@example.com', '555-789-0124', '1996-03-16', 'Delhi', 'Male', 'Straight',
+    '[{"preference": "City", "frequency": "Occasional"}]', '["Adventure", "Cultural"]', '["Exploration", "Vacation"]',
+    'Supportive family.', 'Delhi', 'UX Designer', 'Freelancer', 'B.Des in UX Design', 
+    'Neutral', 'Hindu', 'Bachelor\'s Degree', 'Socially', 'No', 'No', 'No', 
+    'Gym and trekking', 'None', '["Traveling", "Design", "Photography"]', 
+    '["Creativity", "Respect", "Innovation"]', '["https://www.instagram.com/p/C8K5lJhH3N4/media/?size=l", "https://www.instagram.com/p/C8L8kJhH2O5/media/?size=l"]', 
+    'Bio of Sanjay Kumar'
+);
+
+-- Insert 67
+INSERT INTO TravelMates_Users (
+    full_name, email, phone_number, date_of_birth, location, gender, sexuality,
+    travel_preferences, travel_types, traveling_intentions, family_details,
+    hometown, job_title, workplace, education, political_beliefs, religious_beliefs,
+    highest_education_level, drinking_habits, smoking_tobacco, smoking_weed, drug_use,
+    workout_habits, pets, interests, values_in_person, profile_pictures, bio
+) VALUES (
+    'Ritika Jain', 'ritika.jain@example.com', '555-890-1237', '1992-07-05', 'Bangalore', 'Female', 'Straight',
+    '[{"preference": "Beach", "frequency": "Frequent"}]', '["Adventure", "Relaxation"]', '["Vacation", "Exploration"]',
+    'Close-knit family.', 'Bangalore', 'Content Writer', 'Freelancer', 'MA in English', 
+    'Liberal', 'Hindu', 'Master\'s Degree', 'Socially', 'No', 'No', 'No', 
+    'Gym and hiking', 'Cat', '["Traveling", "Writing", "Music"]', 
+    '["Creativity", "Respect", "Integrity"]', '["https://www.instagram.com/p/C8M5lJhH1N7/media/?size=l", "https://www.instagram.com/p/C8N8kJhH2O6/media/?size=l"]', 
+    'Bio of Ritika Jain'
+);
+
+-- Insert 68
+INSERT INTO TravelMates_Users (
+    full_name, email, phone_number, date_of_birth, location, gender, sexuality,
+    travel_preferences, travel_types, traveling_intentions, family_details,
+    hometown, job_title, workplace, education, political_beliefs, religious_beliefs,
+    highest_education_level, drinking_habits, smoking_tobacco, smoking_weed, drug_use,
+    workout_habits, pets, interests, values_in_person, profile_pictures, bio
+) VALUES (
+    'Rajesh Mehta', 'rajesh.mehta@example.com', '555-901-2348', '1994-06-18', 'Mumbai', 'Male', 'Straight',
+    '[{"preference": "Countryside", "frequency": "Occasional"}]', '["Adventure", "Relaxation"]', '["Exploration", "Vacation"]',
+    'Supportive family.', 'Mumbai', 'Software Developer', 'Tech Mahindra', 'B.Tech in IT', 
+    'Neutral', 'Hindu', 'Bachelor\'s Degree', 'Occasionally', 'No', 'No', 'No', 
+    'Running and gym', 'Dog', '["Traveling", "Technology", "Music"]', 
+    '["Creativity", "Respect", "Integrity"]', '["https://www.instagram.com/p/C8O8kJhH5N2/media/?size=l", "https://www.instagram.com/p/C8P5lJhH2O8/media/?size=l"]', 
+    'Bio of Rajesh Mehta'
+);
+
+-- Insert 69
+INSERT INTO TravelMates_Users (
+    full_name, email, phone_number, date_of_birth, location, gender, sexuality,
+    travel_preferences, travel_types, traveling_intentions, family_details,
+    hometown, job_title, workplace, education, political_beliefs, religious_beliefs,
+    highest_education_level, drinking_habits, smoking_tobacco, smoking_weed, drug_use,
+    workout_habits, pets, interests, values_in_person, profile_pictures, bio
+) VALUES (
+    'Anita Patel', 'anita.patel@example.com', '555-012-3459', '1989-11-10', 'Kolkata', 'Female', 'Straight',
+    '[{"preference": "Mountains", "frequency": "Occasional"}]', '["Adventure", "Relaxation"]', '["Exploration", "Vacation"]',
+    'Supportive family.', 'Kolkata', 'Marketing Specialist', 'Tata Consultancy', 'MBA in Marketing', 
+    'Liberal', 'Hindu', 'Master\'s Degree', 'Socially', 'No', 'No', 'No', 
+    'Yoga and cycling', 'None', '["Traveling", "Marketing", "Fitness"]', 
+    '["Creativity", "Respect", "Integrity"]', '["https://www.instagram.com/p/C8Q5lJhH3N1/media/?size=l", "https://www.instagram.com/p/C8R8kJhH2O7/media/?size=l"]', 
+    'Bio of Anita Patel'
+);
+
+-- Insert 70
+INSERT INTO TravelMates_Users (
+    full_name, email, phone_number, date_of_birth, location, gender, sexuality,
+    travel_preferences, travel_types, traveling_intentions, family_details,
+    hometown, job_title, workplace, education, political_beliefs, religious_beliefs,
+    highest_education_level, drinking_habits, smoking_tobacco, smoking_weed, drug_use,
+    workout_habits, pets, interests, values_in_person, profile_pictures, bio
+) VALUES (
+    'Divya Agarwal', 'divya.agarwal@example.com', '555-123-4568', '1993-09-04', 'Delhi', 'Female', 'Straight',
+    '[{"preference": "City", "frequency": "Frequent"}]', '["Adventure", "Cultural"]', '["Exploration", "Vacation"]',
+    'Close-knit family.', 'Delhi', 'Financial Analyst', 'HDFC Bank', 'B.Com in Finance', 
+    'Progressive', 'Hindu', 'Bachelor\'s Degree', 'Occasionally', 'No', 'No', 'No', 
+    'Swimming and yoga', 'Cat', '["Traveling", "Finance", "Photography"]', 
+    '["Integrity", "Respect", "Creativity"]', '["https://www.instagram.com/p/C8S5lJhH3N8/media/?size=l", "https://www.instagram.com/p/C8T8kJhH2N5/media/?size=l"]', 
+    'Bio of Divya Agarwal'
+);
+-- Insert 71
+INSERT INTO TravelMates_Users (
+    full_name, email, phone_number, date_of_birth, location, gender, sexuality,
+    travel_preferences, travel_types, traveling_intentions, family_details,
+    hometown, job_title, workplace, education, political_beliefs, religious_beliefs,
+    highest_education_level, drinking_habits, smoking_tobacco, smoking_weed, drug_use,
+    workout_habits, pets, interests, values_in_person, profile_pictures, bio
+) VALUES (
+    'Ishaan Kapoor', 'ishaan.kapoor@example.com', '555-234-5678', '1990-12-12', 'Noida', 'Male', 'Straight',
+    '[{"preference": "Countryside", "frequency": "Occasional"}]', '["Adventure", "Relaxation"]', '["Exploration", "Vacation"]',
+    'Close-knit family.', 'Noida', 'Mechanical Engineer', 'Mahindra & Mahindra', 'B.Tech in Mechanical Engineering', 
+    'Neutral', 'Hindu', 'Bachelor\'s Degree', 'Socially', 'No', 'No', 'No', 
+    'Cycling and trekking', 'Dog', '["Traveling", "Engineering", "Cooking"]', 
+    '["Integrity", "Respect", "Creativity"]', '["https://www.instagram.com/p/C8U5lJhH2O2/media/?size=l", "https://www.instagram.com/p/C8V5kJhH1O9/media/?size=l"]', 
+    'Bio of Ishaan Kapoor'
+);
+
+-- Insert 72
+INSERT INTO TravelMates_Users (
+    full_name, email, phone_number, date_of_birth, location, gender, sexuality,
+    travel_preferences, travel_types, traveling_intentions, family_details,
+    hometown, job_title, workplace, education, political_beliefs, religious_beliefs,
+    highest_education_level, drinking_habits, smoking_tobacco, smoking_weed, drug_use,
+    workout_habits, pets, interests, values_in_person, profile_pictures, bio
+) VALUES (
+    'Ankita Reddy', 'ankita.reddy@example.com', '555-345-6789', '1994-05-25', 'Hyderabad', 'Female', 'Straight',
+    '[{"preference": "City", "frequency": "Frequent"}]', '["Adventure", "Cultural"]', '["Exploration", "Vacation"]',
+    'Supportive family.', 'Hyderabad', 'Content Strategist', 'Google', 'MA in Communication', 
+    'Liberal', 'Hindu', 'Master\'s Degree', 'Socially', 'No', 'No', 'No', 
+    'Gym and hiking', 'None', '["Traveling", "Content Creation", "Cooking"]', 
+    '["Creativity", "Respect", "Integrity"]', '["https://www.instagram.com/p/C8W5lJhH3N2/media/?size=l", "https://www.instagram.com/p/C8X7kJhH2O8/media/?size=l"]', 
+    'Bio of Ankita Reddy'
+);
+
+-- Insert 73
+INSERT INTO TravelMates_Users (
+    full_name, email, phone_number, date_of_birth, location, gender, sexuality,
+    travel_preferences, travel_types, traveling_intentions, family_details,
+    hometown, job_title, workplace, education, political_beliefs, religious_beliefs,
+    highest_education_level, drinking_habits, smoking_tobacco, smoking_weed, drug_use,
+    workout_habits, pets, interests, values_in_person, profile_pictures, bio
+) VALUES (
+    'Raj Patel', 'raj.patel@example.com', '555-456-7890', '1993-06-10', 'Ahmedabad', 'Male', 'Straight',
+    '[{"preference": "Beach", "frequency": "Occasional"}]', '["Adventure", "Relaxation"]', '["Vacation", "Exploration"]',
+    'Close-knit family.', 'Ahmedabad', 'Software Architect', 'Accenture', 'M.Tech in Software Engineering', 
+    'Neutral', 'Hindu', 'Master\'s Degree', 'Occasionally', 'No', 'No', 'No', 
+    'Gym and swimming', 'Dog', '["Traveling", "Software Development", "Reading"]', 
+    '["Creativity", "Respect", "Integrity"]', '["https://www.instagram.com/p/C8Y5lJhH2N6/media/?size=l", "https://www.instagram.com/p/C8Z8kJhH1O7/media/?size=l"]', 
+    'Bio of Raj Patel'
+);
+
+-- Insert 74
+INSERT INTO TravelMates_Users (
+    full_name, email, phone_number, date_of_birth, location, gender, sexuality,
+    travel_preferences, travel_types, traveling_intentions, family_details,
+    hometown, job_title, workplace, education, political_beliefs, religious_beliefs,
+    highest_education_level, drinking_habits, smoking_tobacco, smoking_weed, drug_use,
+    workout_habits, pets, interests, values_in_person, profile_pictures, bio
+) VALUES (
+    'Sonali Agarwal', 'sonali.agarwal@example.com', '555-567-8901', '1989-02-17', 'Delhi', 'Female', 'Straight',
+    '[{"preference": "Mountains", "frequency": "Frequent"}]', '["Adventure", "Cultural"]', '["Exploration", "Vacation"]',
+    'Supportive family.', 'Delhi', 'HR Executive', 'HCL', 'MBA in HR', 
+    'Liberal', 'Hindu', 'Master\'s Degree', 'Socially', 'No', 'No', 'No', 
+    'Yoga and cycling', 'Cat', '["Traveling", "HR", "Fitness"]', 
+    '["Integrity", "Respect", "Empathy"]', '["https://www.instagram.com/p/C8Z5lJhH2N8/media/?size=l", "https://www.instagram.com/p/C8a8kJhH2O5/media/?size=l"]', 
+    'Bio of Sonali Agarwal'
+);
+
+-- Insert 75
+INSERT INTO TravelMates_Users (
+    full_name, email, phone_number, date_of_birth, location, gender, sexuality,
+    travel_preferences, travel_types, traveling_intentions, family_details,
+    hometown, job_title, workplace, education, political_beliefs, religious_beliefs,
+    highest_education_level, drinking_habits, smoking_tobacco, smoking_weed, drug_use,
+    workout_habits, pets, interests, values_in_person, profile_pictures, bio
+) VALUES (
+    'Vikram Singh', 'vikram.singh@example.com', '555-678-9012', '1996-03-28', 'Bangalore', 'Male', 'Straight',
+    '[{"preference": "City", "frequency": "Frequent"}]', '["Adventure", "Cultural"]', '["Exploration", "Vacation"]',
+    'Close-knit family.', 'Bangalore', 'Digital Marketing Manager', 'Adobe', 'BBA in Marketing', 
+    'Progressive', 'Hindu', 'Bachelor\'s Degree', 'Socially', 'No', 'No', 'No', 
+    'Swimming and gym', 'Dog', '["Traveling", "Marketing", "Music"]', 
+    '["Creativity", "Respect", "Integrity"]', '["https://www.instagram.com/p/C8b8kJhH2O9/media/?size=l", "https://www.instagram.com/p/C8c5lJhH3N5/media/?size=l"]', 
+    'Bio of Vikram Singh'
+);
+
+-- Insert 76
+INSERT INTO TravelMates_Users (
+    full_name, email, phone_number, date_of_birth, location, gender, sexuality,
+    travel_preferences, travel_types, traveling_intentions, family_details,
+    hometown, job_title, workplace, education, political_beliefs, religious_beliefs,
+    highest_education_level, drinking_habits, smoking_tobacco, smoking_weed, drug_use,
+    workout_habits, pets, interests, values_in_person, profile_pictures, bio
+) VALUES (
+    'Priya Sharma', 'priya.sharma@example.com', '555-789-0123', '1998-10-05', 'Mumbai', 'Female', 'Straight',
+    '[{"preference": "Beach", "frequency": "Occasional"}]', '["Adventure", "Relaxation"]', '["Vacation", "Exploration"]',
+    'Supportive family.', 'Mumbai', 'Data Analyst', 'TCS', 'MSc in Data Science', 
+    'Neutral', 'Hindu', 'Master\'s Degree', 'Occasionally', 'No', 'No', 'No', 
+    'Cycling and gym', 'Cat', '["Traveling", "Data Analysis", "Cooking"]', 
+    '["Integrity", "Respect", "Creativity"]', '["https://www.instagram.com/p/C8d8kJhH1O6/media/?size=l", "https://www.instagram.com/p/C8e5lJhH2N8/media/?size=l"]', 
+    'Bio of Priya Sharma'
+);
+
+-- Insert 77
+INSERT INTO TravelMates_Users (
+    full_name, email, phone_number, date_of_birth, location, gender, sexuality,
+    travel_preferences, travel_types, traveling_intentions, family_details,
+    hometown, job_title, workplace, education, political_beliefs, religious_beliefs,
+    highest_education_level, drinking_habits, smoking_tobacco, smoking_weed, drug_use,
+    workout_habits, pets, interests, values_in_person, profile_pictures, bio
+) VALUES (
+    'Kunal Joshi', 'kunal.joshi@example.com', '555-890-1234', '1991-11-22', 'Noida', 'Male', 'Straight',
+    '[{"preference": "Countryside", "frequency": "Occasional"}]', '["Adventure", "Relaxation"]', '["Exploration", "Vacation"]',
+    'Close-knit family.', 'Noida', 'UX Designer', 'Infosys', 'B.Des in UX Design', 
+    'Liberal', 'Hindu', 'Bachelor\'s Degree', 'Socially', 'No', 'No', 'No', 
+    'Yoga and gym', 'Dog', '["Traveling", "Design", "Photography"]', 
+    '["Creativity", "Respect", "Integrity"]', '["https://www.instagram.com/p/C8f5lJhH1N5/media/?size=l", "https://www.instagram.com/p/C8g8kJhH2N7/media/?size=l"]', 
+    'Bio of Kunal Joshi'
+);
+
+-- Insert 78
+INSERT INTO TravelMates_Users (
+    full_name, email, phone_number, date_of_birth, location, gender, sexuality,
+    travel_preferences, travel_types, traveling_intentions, family_details,
+    hometown, job_title, workplace, education, political_beliefs, religious_beliefs,
+    highest_education_level, drinking_habits, smoking_tobacco, smoking_weed, drug_use,
+    workout_habits, pets, interests, values_in_person, profile_pictures, bio
+) VALUES (
+    'Sanya Kapoor', 'sanya.kapoor@example.com', '555-901-2345', '1995-04-15', 'Delhi', 'Female', 'Straight',
+    '[{"preference": "City", "frequency": "Frequent"}]', '["Adventure", "Cultural"]', '["Exploration", "Vacation"]',
+    'Supportive family.', 'Delhi', 'Product Manager', 'Zomato', 'MBA in Marketing', 
+    'Neutral', 'Hindu', 'Master\'s Degree', 'Socially', 'No', 'No', 'No', 
+    'Swimming and hiking', 'Cat', '["Traveling", "Product Management", "Fitness"]', 
+    '["Integrity", "Respect", "Creativity"]', '["https://www.instagram.com/p/C8h8kJhH2N4/media/?size=l", "https://www.instagram.com/p/C8i5lJhH3O3/media/?size=l"]', 
+    'Bio of Sanya Kapoor'
+);
+
+-- Insert 79
+INSERT INTO TravelMates_Users (
+    full_name, email, phone_number, date_of_birth, location, gender, sexuality,
+    travel_preferences, travel_types, traveling_intentions, family_details,
+    hometown, job_title, workplace, education, political_beliefs, religious_beliefs,
+    highest_education_level, drinking_habits, smoking_tobacco, smoking_weed, drug_use,
+    workout_habits, pets, interests, values_in_person, profile_pictures, bio
+) VALUES (
+    'Amit Kumar', 'amit.kumar@example.com', '555-012-3456', '1992-08-30', 'Bangalore', 'Male', 'Straight',
+    '[{"preference": "Mountains", "frequency": "Occasional"}]', '["Adventure", "Cultural"]', '["Exploration", "Vacation"]',
+    'Close-knit family.', 'Bangalore', 'Financial Analyst', 'RBL Bank', 'B.Com in Finance', 
+    'Progressive', 'Hindu', 'Bachelor\'s Degree', 'Socially', 'No', 'No', 'No', 
+    'Gym and swimming', 'Dog', '["Traveling", "Finance", "Cooking"]', 
+    '["Creativity", "Respect", "Integrity"]', '["https://www.instagram.com/p/C8j8kJhH2N9/media/?size=l", "https://www.instagram.com/p/C8k5lJhH2N3/media/?size=l"]', 
+    'Bio of Amit Kumar'
+);
+
+-- Insert 80
+INSERT INTO TravelMates_Users (
+    full_name, email, phone_number, date_of_birth, location, gender, sexuality,
+    travel_preferences, travel_types, traveling_intentions, family_details,
+    hometown, job_title, workplace, education, political_beliefs, religious_beliefs,
+    highest_education_level, drinking_habits, smoking_tobacco, smoking_weed, drug_use,
+    workout_habits, pets, interests, values_in_person, profile_pictures, bio
+) VALUES (
+    'Nisha Patel', 'nisha.patel@example.com', '555-123-4567', '1997-09-12', 'Mumbai', 'Female', 'Straight',
+    '[{"preference": "Beach", "frequency": "Frequent"}]', '["Adventure", "Relaxation"]', '["Vacation", "Exploration"]',
+    'Supportive family.', 'Mumbai', 'HR Manager', 'Cognizant', 'MBA in HR', 
+    'Neutral', 'Hindu', 'Master\'s Degree', 'Occasionally', 'No', 'No', 'No', 
+    'Yoga and cycling', 'None', '["Traveling", "HR", "Fitness"]', 
+    '["Integrity", "Respect", "Creativity"]', '["https://www.instagram.com/p/C8l5lJhH2N2/media/?size=l", "https://www.instagram.com/p/C8m8kJhH2N8/media/?size=l"]', 
+    'Bio of Nisha Patel'
+);
+
